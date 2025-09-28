@@ -17,7 +17,6 @@ bioinformatica_tp/
 │   └── INS_orfs_table.xlsx # Tabla de resultados
 ├── docs/             # Documentación
 │   └── TP Bioinformatica-2025 - Parte 1.pdf
-├── run_analysis.py   # Script principal para análisis automatizado
 ├── requirements.txt   # Dependencias de Python
 └── README.md         # Este archivo
 ```
@@ -93,23 +92,6 @@ python scripts/ex2.py -i results/INS_orfs.fasta -o results/blast_analysis.txt --
 ```
 
 ## Flujo de Trabajo Completo
-
-### Opción 1: Script Automatizado (Recomendado)
-
-Usar el script principal `run_analysis.py` que ejecuta ambos ejercicios automáticamente:
-
-```bash
-# Análisis completo
-python run_analysis.py -i data/NM_022555.gb -o results/
-
-# Con parámetros personalizados
-python run_analysis.py -i data/NM_022555.gb -o results/ --min-orf-len 30 --max-hits 5 --evalue 0.01
-
-# Solo ejercicio 1 (sin BLAST)
-python run_analysis.py -i data/NM_022555.gb -o results/ --skip-blast
-```
-
-### Opción 2: Ejecución Manual
 
 1. **Preparar datos de entrada:**
    ```bash
