@@ -76,15 +76,15 @@ def generate_six_frames(dna: Seq) -> List[Tuple[str, Seq]]:
     # Marcos de lectura directos
     for offset in range(3):
         frame_nt = dna[offset:]
-        # Trim to multiple of 3 to avoid partial codon warning
+        # Recortar a múltiplo de 3 para evitar advertencia de codón parcial
         frame_nt = frame_nt[:len(frame_nt) - (len(frame_nt) % 3)]
         aa = frame_nt.translate(to_stop=False)
         frames.append((f"+{offset+1}", aa))
-    # Reverse complement frames
+    # Marcos de lectura reverso-complementarios
     rc = dna.reverse_complement()
     for offset in range(3):
         frame_nt = rc[offset:]
-        # Trim to multiple of 3 to avoid partial codon warning
+        # Recortar a múltiplo de 3 para evitar advertencia de codón parcial
         frame_nt = frame_nt[:len(frame_nt) - (len(frame_nt) % 3)]
         aa = frame_nt.translate(to_stop=False)
         frames.append((f"-{offset+1}", aa))
@@ -107,7 +107,7 @@ def find_orfs_in_aa(aa_seq: Seq, min_len: int) -> List[Tuple[int, int, Seq]]:
                 orf_seq = aa_seq[start_pos:i]
                 orfs.append((start_pos, i, orf_seq))
             start_pos = None
-    # If sequence ends in an ORF without terminal stop, consider it as well
+    # Si la secuencia termina en un ORF sin codón de parada terminal, considerarlo también
     if start_pos is not None:
         if len(aa_seq) - start_pos >= min_len:
             orf_seq = aa_seq[start_pos:]
@@ -158,7 +158,7 @@ def process_record(rec, min_orf_len: int, write_all_frames: bool) -> List[Tuple[
     best = select_best_frame(frames_orfs)
 
     outputs: List[Tuple[str, str]] = []
-    # Write ORFs
+    # Escribir ORFs
     for frame_label, orfs in frames_orfs:
         for start, end, orf_seq in orfs:
             is_best = best is not None and frame_label == best[0] and orf_seq == best[1][2]

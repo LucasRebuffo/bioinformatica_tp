@@ -127,6 +127,34 @@ python run_analysis.py -i data/NM_022555.gb -o results/ --skip-blast
    python scripts/ex2.py -i results/orfs.fasta -o results/blast_analysis.txt --max_hits 10
    ```
 
+## Características Técnicas
+
+### Mejoras Implementadas
+
+1. **Manejo de Codones Parciales**: 
+   - Los scripts recortan automáticamente las secuencias a múltiplos de 3
+   - Elimina advertencias de Biopython sobre codones incompletos
+
+2. **Interfaz en Español**:
+   - Todos los comentarios del código están en español
+   - Los resultados BLAST se generan en español
+   - Mensajes de error y progreso en español
+
+3. **Arquitectura Modular**:
+   - Funciones especializadas para cada tarea
+   - Código reutilizable y mantenible
+   - Separación clara de responsabilidades
+
+4. **Manejo Robusto de Errores**:
+   - Validación de archivos de entrada
+   - Manejo de errores de conexión BLAST
+   - Mensajes informativos detallados
+
+5. **Optimización de Recursos**:
+   - Delays configurables entre búsquedas BLAST
+   - Filtrado eficiente de resultados
+   - Procesamiento por lotes de secuencias
+
 ## Notas Importantes
 
 - **Conexión a Internet:** El Ejercicio 2 requiere conexión a internet para acceder a los servidores BLAST de NCBI
@@ -139,6 +167,51 @@ python run_analysis.py -i data/NM_022555.gb -o results/ --skip-blast
 - `biopython>=1.83,<2`: Para manipulación de secuencias y BLAST
 - `python>=3.9`: Versión mínima de Python requerida
 
+## Arquitectura de los Scripts
+
+### Ejercicio 1 (scripts/ex1.py) - Arquitectura Modular
+
+El script está estructurado en funciones especializadas:
+
+1. **`parse_args()`**: Manejo de argumentos de línea de comandos
+2. **`generate_six_frames(dna)`**: Genera los 6 marcos de lectura (3 directos + 3 reverso-complementarios)
+   - Recorta secuencias a múltiplos de 3 para evitar advertencias de codones parciales
+   - Traduce cada marco a aminoácidos
+3. **`find_orfs_in_aa(aa_seq, min_len)`**: Detecta ORFs en secuencias de aminoácidos
+   - Busca codones de inicio 'M' y parada '*'
+   - Filtra por longitud mínima
+4. **`select_best_frame(frames_orfs)`**: Selecciona el mejor marco por longitud de ORF
+5. **`process_record(rec, min_orf_len, write_all_frames)`**: Procesa un registro GenBank completo
+6. **`write_fasta(output_path, entries)`**: Escribe resultados en formato FASTA
+
+**Flujo de datos:**
+```
+GenBank → 6 Marcos → Traducción → Detección ORFs → Selección Mejor → FASTA
+```
+
+### Ejercicio 2 (scripts/ex2.py) - Arquitectura de Análisis BLAST
+
+El script implementa un pipeline de análisis BLAST:
+
+1. **`parse_args()`**: Configuración de parámetros BLAST
+2. **`format_sequence_for_blast(seq_record)`**: Formatea secuencias para BLAST
+3. **`perform_blast_search(sequence, program, database)`**: Realiza búsquedas BLAST online
+   - Utiliza NCBIWWW.qblast() para consultas remotas
+   - Maneja errores de conexión
+4. **`parse_blast_results(xml_data, max_hits, evalue_threshold)`**: Parsea resultados XML
+   - Extrae información de alineamientos
+   - Filtra por valor E y número de hits
+5. **`format_blast_results(sequence_id, hits)`**: Formatea resultados para reporte
+6. **`process_sequences(input_file, max_hits, evalue_threshold, delay)`**: Pipeline principal
+   - Procesa múltiples secuencias
+   - Implementa delays para no sobrecargar NCBI
+7. **`write_results(output_file, results)`**: Genera reporte final
+
+**Flujo de datos:**
+```
+FASTA → BLAST Online → XML → Parseo → Filtrado → Reporte Español
+```
+
 ## Estructura de Resultados
 
 ### Ejercicio 1 - Salida FASTA
@@ -147,18 +220,18 @@ python run_analysis.py -i data/NM_022555.gb -o results/ --skip-blast
 MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF...
 ```
 
-### Ejercicio 2 - Análisis BLAST
+### Ejercicio 2 - Análisis BLAST (Resultados en Español)
 ```
-=== BLAST Results for NM_022555.4 ===
-Found 5 significant hits:
+=== Resultados BLAST para NM_022555.4 ===
+Se encontraron 5 coincidencias significativas:
 
-Hit #1:
-  Protein ID: NP_071852.1
-  Description: HLA class II histocompatibility antigen, DR beta 3 chain
-  Length: 266 aa
-  E-value: 0.0
-  Score: 266 (Bits: 266.0)
-  Identity: 266 / 266 (100.0%)
+Coincidencia #1:
+  ID de Proteína: NP_071852.1
+  Descripción: HLA class II histocompatibility antigen, DR beta 3 chain
+  Longitud: 266 aa
+  Valor E: 0.0
+  Puntuación: 266 (Bits: 266.0)
+  Identidad: 266 / 266 (100.0%)
   ...
 ```
 

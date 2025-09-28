@@ -1,0 +1,823 @@
+LOCUS       NM_001406716           11494 bp    mRNA    linear   PRI 15-OCT-2024
+DEFINITION  Homo sapiens fibrillin 1 (FBN1), transcript variant 2, mRNA.
+ACCESSION   NM_001406716
+VERSION     NM_001406716.1
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 11494)
+  AUTHORS   Dougarem,D., Chen,Y.X., Sun,Y.N., Huang,H.F. and Luo,Q.
+  TITLE     A Novel Heterozygous Intronic FBN1 Variant Contributes to Aberrant
+            RNA Splicing in Marfan Syndrome
+  JOURNAL   Mol Genet Genomic Med 12 (9), e70004 (2024)
+   PUBMED   39219382
+  REMARK    GeneRIF: A Novel Heterozygous Intronic FBN1 Variant Contributes to
+            Aberrant RNA Splicing in Marfan Syndrome.
+REFERENCE   2  (bases 1 to 11494)
+  AUTHORS   Romere,C., Duerrschmid,C., Bournat,J., Constable,P., Jain,M.,
+            Xia,F., Saha,P.K., Del Solar,M., Zhu,B., York,B., Sarkar,P.,
+            Rendon,D.A., Gaber,M.W., LeMaire,S.A., Coselli,J.S., Milewicz,D.M.,
+            Sutton,V.R., Butte,N.F., Moore,D.D. and Chopra,A.R.
+  TITLE     Asprosin, a Fasting-Induced Glucogenic Protein Hormone
+  JOURNAL   Cell 165 (3), 566-579 (2016)
+   PUBMED   27087445
+  REMARK    GeneRIF: Authors discovered a protein hormone that regulates
+            glucose homeostasis. It is the C-terminal cleavage product of
+            profibrillin (encoded by FBN1). Its absence in humans results in a
+            unique pattern of metabolic dysregulation that includes partial
+            lipodystrophy, accompanied by reduced plasma insulin, while
+            maintaining euglycemia.
+REFERENCE   3  (bases 1 to 11494)
+  AUTHORS   Ramachandra,C.J., Mehta,A., Guo,K.W., Wong,P., Tan,J.L. and Shim,W.
+  TITLE     Molecular pathogenesis of Marfan syndrome
+  JOURNAL   Int J Cardiol 187, 585-591 (2015)
+   PUBMED   25863307
+  REMARK    GeneRIF: Progressive pathological aortic root enlargement as the
+            result of degeneration of microfibril architecture and
+            consequential loss of extracellular matrix integrity due to
+            fibrillin-1 (FBN1) mutations are commonly diagnosed clinical
+            manifestations of MFS.
+            Review article
+REFERENCE   4  (bases 1 to 11494)
+  AUTHORS   Marzin,P. and Cormier-Daire,V.
+  TITLE     Geleophysic Dysplasia
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE and
+            Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301776
+REFERENCE   5  (bases 1 to 11494)
+  AUTHORS   Longoni,M., Pober,B.R. and High,F.A.
+  TITLE     Congenital Diaphragmatic Hernia Overview
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE and
+            Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301533
+REFERENCE   6  (bases 1 to 11494)
+  AUTHORS   Dietz,H.
+  TITLE     FBN1-Related Marfan Syndrome
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE and
+            Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301510
+REFERENCE   7  (bases 1 to 11494)
+  AUTHORS   Milewicz,D.M. and Cecchi,A.C.
+  TITLE     Heritable Thoracic Aortic Disease Overview
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE and
+            Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301299
+REFERENCE   8  (bases 1 to 11494)
+  AUTHORS   Marzin,P., Cormier-Daire,V. and Tsilou,E.
+  TITLE     Weill-Marchesani Syndrome
+  JOURNAL   (in) Adam MP, Feldman J, Mirzaa GM, Pagon RA, Wallace SE and
+            Amemiya A (Eds.);
+            GENEREVIEWS(R);
+            (1993)
+   PUBMED   20301293
+REFERENCE   9  (bases 1 to 11494)
+  AUTHORS   Magenis,R.E., Maslen,C.L., Smith,L., Allen,L. and Sakai,L.Y.
+  TITLE     Localization of the fibrillin (FBN) gene to chromosome 15, band
+            q21.1
+  JOURNAL   Genomics 11 (2), 346-351 (1991)
+   PUBMED   1769651
+REFERENCE   10 (bases 1 to 11494)
+  AUTHORS   Maslen,C.L., Corson,G.M., Maddox,B.K., Glanville,R.W. and
+            Sakai,L.Y.
+  TITLE     Partial sequence of a candidate gene for the Marfan syndrome
+  JOURNAL   Nature 352 (6333), 334-337 (1991)
+   PUBMED   1852207
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AC084757.2, AC022467.7,
+            KF459685.1 and AC084758.3.
+            
+            Summary: This gene encodes a member of the fibrillin family of
+            proteins. The encoded preproprotein is proteolytically processed to
+            generate two proteins including the extracellular matrix component
+            fibrillin-1 and the protein hormone asprosin. Fibrillin-1 is an
+            extracellular matrix glycoprotein that serves as a structural
+            component of calcium-binding microfibrils. These microfibrils
+            provide force-bearing structural support in elastic and nonelastic
+            connective tissue throughout the body. Asprosin, secreted by white
+            adipose tissue, has been shown to regulate glucose homeostasis.
+            Mutations in this gene are associated with Marfan syndrome and the
+            related MASS phenotype, as well as ectopia lentis syndrome,
+            Weill-Marchesani syndrome, Shprintzen-Goldberg syndrome and
+            neonatal progeroid syndrome. [provided by RefSeq, Apr 2016].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: L13923.1, GQ891350.1 [ECO:0000332]
+            RNAseq introns              :: mixed sample support SAMEA1965299,
+                                           SAMEA1966682 [ECO:0006172]
+            ##Evidence-Data-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-365               AC084757.2         44368-44732         c
+            366-448             AC022467.7         163389-163471       c
+            449-547             AC022467.7         161107-161205       c
+            548-643             AC022467.7         150518-150613       c
+            644-739             AC022467.7         146662-146757       c
+            740-937             AC022467.7         87990-88187         c
+            938-1063            AC022467.7         84459-84584         c
+            1064-1189           AC022467.7         76509-76634         c
+            1190-1348           AC022467.7         71038-71196         c
+            1349-1528           AC022467.7         66562-66741         c
+            1529-1669           KF459685.1         121-261             c
+            1670-1789           AC022467.7         63928-64047         c
+            1790-1915           AC022467.7         60423-60548         c
+            1916-2038           AC022467.7         58961-59083         c
+            2039-2161           AC022467.7         55404-55526         c
+            2162-2314           AC022467.7         54166-54318         c
+            2315-2368           AC022467.7         49364-49417         c
+            2369-2494           AC022467.7         47645-47770         c
+            2495-2620           AC022467.7         46479-46604         c
+            2621-2740           AC022467.7         45848-45967         c
+            2741-2878           AC022467.7         45502-45639         c
+            2879-2929           AC022467.7         44583-44633         c
+            2930-3055           AC022467.7         42840-42965         c
+            3056-3283           AC022467.7         40230-40457         c
+            3284-3409           AC022467.7         38747-38872         c
+            3410-3538           AC022467.7         38492-38620         c
+            3539-3664           AC022467.7         37691-37816         c
+            3665-3790           AC022467.7         37454-37579         c
+            3791-3913           AC022467.7         35753-35875         c
+            3914-4039           AC022467.7         34197-34322         c
+            4040-4165           AC022467.7         32034-32159         c
+            4166-4288           AC022467.7         24907-25029         c
+            4289-4411           AC022467.7         24634-24756         c
+            4412-4537           AC022467.7         22930-23055         c
+            4538-4660           AC022467.7         21013-21135         c
+            4661-4783           AC022467.7         18791-18913         c
+            4784-4948           AC022467.7         18317-18481         c
+            4949-5017           AC022467.7         16169-16237         c
+            5018-5143           AC022467.7         15947-16072         c
+            5144-5266           AC022467.7         14278-14400         c
+            5267-5425           AC022467.7         13461-13619         c
+            5426-5497           AC084758.3         189742-189813       c
+            5498-5623           AC084758.3         186133-186258       c
+            5624-5746           AC084758.3         182058-182180       c
+            5747-5872           AC084758.3         178264-178389       c
+            5873-5989           AC084758.3         176202-176318       c
+            5990-6118           AC084758.3         174872-175000       c
+            6119-6238           AC084758.3         174037-174156       c
+            6239-6364           AC084758.3         171217-171342       c
+            6365-6514           AC084758.3         167264-167413       c
+            6515-6580           AC084758.3         166818-166883       c
+            6581-6697           AC084758.3         166457-166573       c
+            6698-6817           AC084758.3         164090-164209       c
+            6818-6940           AC084758.3         162362-162484       c
+            6941-7072           AC084758.3         160167-160298       c
+            7073-7198           AC084758.3         157842-157967       c
+            7199-7405           AC084758.3         157063-157269       c
+            7406-7531           AC084758.3         155235-155360       c
+            7532-7654           AC084758.3         154865-154987       c
+            7655-7771           AC084758.3         151448-151564       c
+            7772-7900           AC084758.3         151054-151182       c
+            7901-8020           AC084758.3         150183-150302       c
+            8021-8252           AC084758.3         145032-145263       c
+            8253-8427           AC084758.3         142065-142239       c
+            8428-11494          AC084758.3         137809-140875       c
+FEATURES             Location/Qualifiers
+     source          1..11494
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="15"
+                     /map="15q21.1"
+     gene            1..11494
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /note="fibrillin 1"
+                     /db_xref="GeneID:2200"
+                     /db_xref="HGNC:HGNC:3603"
+                     /db_xref="MIM:134797"
+     exon            1..365
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             202..8817
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /note="isoform a preproprotein is encoded by transcript
+                     variant 2; fibrillin 15; fibrillin-1 preproprotein;
+                     asprosin; epididymis secretory sperm binding protein"
+                     /codon_start=1
+                     /product="fibrillin-1 isoform a preproprotein"
+                     /protein_id="NP_001393645.1"
+                     /db_xref="GeneID:2200"
+                     /db_xref="HGNC:HGNC:3603"
+                     /db_xref="MIM:134797"
+                     /translation="MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKR
+                     RGGGGHDALKGPNVCGSRYNAYCCPGWKTLPGGNQCIVPICRHSCGDGFCSRPNMCTC
+                     PSGQIAPSCGSRSIQHCNIRCMNGGSCSDDHCLCQKGYIGTHCGQPVCESGCLNGGRC
+                     VAPNRCACTYGFTGPQCERDYRTGPCFTVISNQMCQGQLSGIVCTKTLCCATVGRAWG
+                     HPCEMCPAQPHPCRRGFIPNIRTGACQDVDECQAIPGLCQGGNCINTVGSFECKCPAG
+                     HKLNEVSQKCEDIDECSTIPGICEGGECTNTVSSYFCKCPPGFYTSPDGTRCIDVRPG
+                     YCYTALTNGRCSNQLPQSITKMQCCCDAGRCWSPGVTVAPEMCPIRATEDFNKLCSVP
+                     MVIPGRPEYPPPPLGPIPPVLPVPPGFPPGPQIPVPRPPVEYLYPSREPPRVLPVNVT
+                     DYCQLVRYLCQNGRCIPTPGSYRCECNKGFQLDLRGECIDVDECEKNPCAGGECINNQ
+                     GSYTCQCRAGYQSTLTRTECRDIDECLQNGRICNNGRCINTDGSFHCVCNAGFHVTRD
+                     GKNCEDMDECSIRNMCLNGMCINEDGSFKCICKPGFQLASDGRYCKDINECETPGICM
+                     NGRCVNTDGSYRCECFPGLAVGLDGRVCVDTHMRSTCYGGYKRGQCIKPLFGAVTKSE
+                     CCCASTEYAFGEPCQPCPAQNSAEYQALCSSGPGMTSAGSDINECALDPDICPNGICE
+                     NLRGTYKCICNSGYEVDSTGKNCVDINECVLNSLLCDNGQCRNTPGSFVCTCPKGFIY
+                     KPDLKTCEDIDECESSPCINGVCKNSPGSFICECSSESTLDPTKTICIETIKGTCWQT
+                     VIDGRCEININGATLKSQCCSSLGAAWGSPCTLCQVDPICGKGYSRIKGTQCEDIDEC
+                     EVFPGVCKNGLCVNTRGSFKCQCPSGMTLDATGRICLDIRLETCFLRYEDEECTLPIA
+                     GRHRMDACCCSVGAAWGTEECEECPMRNTPEYEELCPRGPGFATKEITNGKPFFKDIN
+                     ECKMIPSLCTHGKCRNTIGSFKCRCDSGFALDSEERNCTDIDECRISPDLCGRGQCVN
+                     TPGDFECKCDEGYESGFMMMKNCMDIDECQRDPLLCRGGVCHNTEGSYRCECPPGHQL
+                     SPNISACIDINECELSAHLCPNGRCVNLIGKYQCACNPGYHSTPDRLFCVDIDECSIM
+                     NGGCETFCTNSEGSYECSCQPGFALMPDQRSCTDIDECEDNPNICDGGQCTNIPGEYR
+                     CLCYDGFMASEDMKTCVDVNECDLNPNICLSGTCENTKGSFICHCDMGYSGKKGKTGC
+                     TDINECEIGAHNCGKHAVCTNTAGSFKCSCSPGWIGDGIKCTDLDECSNGTHMCSQHA
+                     DCKNTMGSYRCLCKEGYTGDGFTCTDLDECSENLNLCGNGQCLNAPGGYRCECDMGFV
+                     PSADGKACEDIDECSLPNICVFGTCHNLPGLFRCECEIGYELDRSGGNCTDVNECLDP
+                     TTCISGNCVNTPGSYICDCPPDFELNPTRVGCVDTRSGNCYLDIRPRGDNGDTACSNE
+                     IGVGVSKASCCCSLGKAWGTPCEMCPAVNTSEYKILCPGGEGFRPNPITVILEDIDEC
+                     QELPGLCQGGKCINTFGSFQCRCPTGYYLNEDTRVCDDVNECETPGICGPGTCYNTVG
+                     NYTCICPPDYMQVNGGNNCMDMRRSLCYRNYYADNQTCDGELLFNMTKKMCCCSYNIG
+                     RAWNKPCEQCPIPSTDEFATLCGSQRPGFVIDIYTGLPVDIDECREIPGVCENGVCIN
+                     MVGSFRCECPVGFFYNDKLLVCEDIDECQNGPVCQRNAECINTAGSYRCDCKPGYRFT
+                     STGQCNDRNECQEIPNICSHGQCIDTVGSFYCLCHTGFKTNDDQTMCLDINECERDAC
+                     GNGTCRNTIGSFNCRCNHGFILSHNNDCIDVDECASGNGNLCRNGQCINTVGSFQCQC
+                     NEGYEVAPDGRTCVDINECLLEPRKCAPGTCQNLDGSYRCICPPGYSLQNEKCEDIDE
+                     CVEEPEICALGTCSNTEGSFKCLCPEGFSLSSSGRRCQDLRMSYCYAKFEGGKCSSPK
+                     SRNHSKQECCCALKGEGWGDPCELCPTEPDEAFRQICPYGSGIIVGPDDSAVDMDECK
+                     EPDVCKHGQCINTDGSYRCECPFGYILAGNECVDTDECSVGNPCGNGTCKNVIGGFEC
+                     TCEEGFEPGPMMTCEDINECAQNPLLCAFRCVNTYGSYECKCPVGYVLREDRRMCKDE
+                     DECEEGKHDCTEKQMECKNLIGTYMCICGPGYQRRPDGEGCVDENECQTKPGICENGR
+                     CLNTRGSYTCECNDGFTASPNQDECLDNREGYCFTEVLQNMCQIGSSNRNPVTKSECC
+                     CDGGRGWGPHCEICPFQGTVAFKKLCPHGRGFMTNGADIDECKVIHDVCRNGECVNDR
+                     GSYHCICKTGYTPDITGTSCVDLNECNQAPKPCNFICKNTEGSYQCSCPKGYILQEDG
+                     RSCKDLDECATKQHNCQFLCVNTIGGFTCKCPPGFTQHHTSCIDNNECTSDINLCGSK
+                     GICQNTPGSFTCECQRGFSLDQTGSSCEDVDECEGNHRCQHGCQNIIGGYRCSCPQGY
+                     LQHYQWNQCVDENECLSAHICGGASCHNTLGSYKCMCPAGFQYEQFSGGCQDINECGS
+                     AQAPCSYGCSNTEGGYLCGCPPGYFRIGQGHCVSGMGMGRGNPEPPVSGEMDDNSLSP
+                     EACYECKINGYPKRGRKRRSTNETDASNIEDQSETEANVSLASWDVEKTAIFAFNISH
+                     VSNKVRILELLPALTTLTNHNRYLIESGNEDGFFKINQKEGISYLHFTKKKPVAGTYS
+                     LQISSTPLYKKKELNQLEDKYDKDYLSGELGDNLKMKIQVLLH"
+     sig_peptide     202..273
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="COORDINATES: ab initio prediction:SignalP:6.0"
+     exon            366..448
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            449..547
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            548..643
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            644..739
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            740..937
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            938..1063
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1064..1189
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1190..1348
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1349..1528
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1529..1669
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1670..1789
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1790..1915
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1916..2038
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2039..2161
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2162..2314
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2315..2368
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2369..2494
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2495..2620
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2621..2740
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2741..2878
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2879..2929
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            2930..3055
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3056..3283
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3284..3409
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3410..3538
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3539..3664
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3665..3790
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3791..3913
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            3914..4039
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4040..4165
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4166..4288
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4289..4411
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4412..4537
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4538..4660
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4661..4783
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4784..4948
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            4949..5017
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5018..5143
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5144..5266
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5267..5425
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5426..5497
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5498..5623
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5624..5746
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5747..5872
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5873..5989
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            5990..6118
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6119..6238
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6239..6364
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6365..6514
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6515..6580
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6581..6697
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6698..6817
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6818..6940
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            6941..7072
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7073..7198
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7199..7405
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7406..7531
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7532..7654
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7655..7771
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7772..7900
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            7901..8020
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8021..8252
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8253..8427
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            8428..11494
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      9704..9709
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /note="hexamer: AATAAA"
+     polyA_site      9734
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /note="major polyA site"
+     regulatory      9793..9798
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /note="hexamer: AATAAA"
+     polyA_site      9817
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+     regulatory      11474..11479
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+                     /note="hexamer: AATAAA"
+     polyA_site      11494
+                     /gene="FBN1"
+                     /gene_synonym="ACMICD; ECTOL1; FBN; GPHYSD2; MASS; MFLS;
+                     MFS1; OCTD; SGS; SSKS; WMS; WMS2"
+ORIGIN      
+        1 gatttgtctc tgtgttgcag ctggcagggg ccgcctgaag tgggagcagc gcctggagaa
+       61 ggcgggagga gcccggcccg ggggacgggc ggcgggatag cgggaccccg gcggcgcggt
+      121 gcgcttcagg gcgcagcggc ggccgcagac cgagccccgg gcgcggcaag aggcggcggg
+      181 agccggtggc ggctcggcat catgcgtcga gggcgtctgc tggagatcgc cctgggattt
+      241 accgtgcttt tagcgtccta cacgagccat ggggcggacg ccaatttgga ggctgggaac
+      301 gtgaaggaaa ccagagccag tcgggccaag agaagaggcg gtggaggaca cgacgcgctt
+      361 aaaggaccca atgtctgtgg atcacgttat aatgcttact gttgccctgg atggaaaacc
+      421 ttacctggcg gaaatcagtg tattgtcccc atttgccggc attcctgtgg ggatggattt
+      481 tgttcgaggc caaatatgtg cacttgccca tctggtcaga tagctccttc ctgtggctcc
+      541 agatccatac aacactgcaa tattcgctgt atgaatggag gtagctgcag tgacgatcac
+      601 tgtctatgcc agaaaggata catagggact cactgtggac aacctgtttg tgaaagtggc
+      661 tgtctcaatg gaggaaggtg tgtggcccca aatcgatgtg catgcactta cggatttact
+      721 ggaccccagt gtgaaagaga ttacaggaca ggcccatgtt ttactgtgat cagcaaccag
+      781 atgtgccagg gacaactcag cgggattgtc tgcacaaaaa cgctctgctg tgccacagtc
+      841 ggccgagcct ggggccaccc ctgtgagatg tgtcctgccc agcctcaccc ctgccgccgt
+      901 ggcttcattc caaatatccg cacgggagct tgtcaagatg tggatgaatg ccaggccatc
+      961 cccgggctct gtcagggagg aaattgcatt aatactgttg ggtcttttga gtgcaaatgc
+     1021 cctgctggac acaaacttaa tgaagtgtca caaaaatgtg aagatattga tgaatgcagc
+     1081 accattcctg gaatctgtga agggggtgaa tgtacaaaca cagtcagcag ttacttttgc
+     1141 aaatgtcccc ctggttttta cacctctcca gatggtacca gatgcataga tgttcgccca
+     1201 ggatactgtt acacagctct gacaaacggg cgctgctcta accagctgcc acagtccata
+     1261 accaaaatgc agtgctgctg tgatgccggc cgatgctggt ctccaggggt cactgtcgcc
+     1321 cctgagatgt gtcccatcag agcaaccgag gatttcaaca agctgtgctc tgttcctatg
+     1381 gtaattcctg ggagaccaga atatcctccc ccaccccttg gccccattcc tccagttctc
+     1441 cctgttcctc ctggctttcc tcctggacct caaattccgg tccctcgacc accagtggaa
+     1501 tatctgtatc catctcggga gccaccaagg gtgctgccag taaacgttac tgattactgc
+     1561 cagttggtcc gctatctctg tcaaaatgga cgctgcattc caactcctgg gagttaccgg
+     1621 tgtgagtgca acaaagggtt ccagctggac ctccgtgggg agtgtattga tgttgatgaa
+     1681 tgtgagaaaa acccctgtgc tggtggtgag tgtattaaca accagggttc gtacacctgt
+     1741 cagtgccgag ctggatatca gagcacactc acgcggacag aatgccgaga cattgatgag
+     1801 tgtttacaga atggccggat ctgcaataat ggacgctgca tcaacacaga tggcagtttt
+     1861 cattgcgtgt gtaatgcggg ctttcatgtt acacgagatg ggaagaactg tgaagatatg
+     1921 gatgaatgca gcataaggaa catgtgcctt aatggaatgt gtatcaatga agatggcagt
+     1981 tttaaatgta tttgcaaacc tggattccag ctggcatcag atggacgtta ttgcaaagac
+     2041 attaacgagt gtgaaacccc tgggatctgc atgaatgggc gttgcgtcaa cactgatggc
+     2101 tcctacagat gtgaatgctt ccctggactg gctgtgggtc tggatggccg tgtgtgtgtt
+     2161 gacacacaca tgcggagcac atgctatggt ggatacaaga gaggccagtg tatcaaacct
+     2221 ttgtttggtg ctgtcactaa atctgaatgc tgttgcgcca gcactgagta tgcatttggg
+     2281 gaaccttgcc agccgtgtcc tgcacagaat tcagcggaat atcaggcact ctgcagcagt
+     2341 gggccaggaa tgacgtcagc aggcagtgat ataaatgaat gtgcactaga tcctgatatt
+     2401 tgcccaaatg gaatctgtga aaaccttcgt gggacctata aatgtatatg caattcagga
+     2461 tatgaagtgg attcaactgg gaaaaactgc gttgatatta atgaatgtgt actgaacagt
+     2521 ctcctttgtg acaatggaca atgtagaaat actcctggaa gttttgtctg tacctgcccc
+     2581 aagggattta tctacaaacc tgatctaaaa acatgtgaag acattgatga atgcgaatca
+     2641 agtccttgca ttaatggagt ctgcaagaac agcccaggct cttttatttg tgaatgttct
+     2701 tctgaaagta ctttggatcc aacaaaaacc atctgcatag aaaccatcaa gggcacttgc
+     2761 tggcagactg tcattgatgg gcgatgtgag atcaacatca atggagccac cttaaagtcc
+     2821 cagtgctgct cctccctcgg tgctgcgtgg ggaagcccgt gcaccctatg ccaagttgat
+     2881 cccatatgtg gtaaagggta ctcaagaatt aaaggaacac aatgtgaaga tatagatgaa
+     2941 tgtgaagtgt tcccaggagt gtgtaaaaat ggcctgtgtg ttaacactag ggggtcattc
+     3001 aagtgtcagt gtcccagtgg aatgactttg gatgccacag gaaggatctg tcttgatatc
+     3061 cgcctggaaa cctgcttcct gaggtacgag gacgaggagt gcaccctgcc tattgctggc
+     3121 cgccaccgca tggacgcctg ctgctgctcc gtcggggcag cctggggtac tgaggaatgc
+     3181 gaggagtgtc ccatgagaaa tactcctgag tacgaggagc tgtgtccgag aggacccgga
+     3241 tttgccacaa aagaaattac aaatggaaag cctttcttca aagatatcaa tgagtgcaag
+     3301 atgataccca gcctctgcac ccacggcaag tgcagaaaca ccattggcag ctttaagtgc
+     3361 aggtgtgaca gcggctttgc tcttgattct gaagaaagga actgcacaga cattgacgaa
+     3421 tgccgcatat ctcctgacct ctgtggcaga ggccagtgtg tgaacacccc tggggacttt
+     3481 gaatgcaagt gtgacgaagg ctatgaaagt ggattcatga tgatgaagaa ctgcatggat
+     3541 attgatgagt gtcagagaga tcctctccta tgccgaggtg gtgtttgcca taacacagag
+     3601 ggaagttacc gctgtgaatg cccgcctggc catcagctgt cccccaacat ctccgcgtgt
+     3661 atcgacatca atgaatgtga gctgagtgca cacctgtgcc ccaatggccg ttgcgtgaac
+     3721 ctcataggga agtatcagtg tgcctgcaac cctggctacc attcaactcc cgataggcta
+     3781 ttttgtgttg acattgatga atgcagcata atgaatggtg gttgtgaaac cttctgcaca
+     3841 aactctgaag gcagctatga atgtagctgt cagccgggat ttgcactaat gcctgaccag
+     3901 agatcatgca ccgacatcga tgagtgtgaa gataatccca atatctgtga tggtggtcag
+     3961 tgcacaaata tccctggaga gtacaggtgc ttgtgttatg atggattcat ggcatctgaa
+     4021 gacatgaaga cttgtgtaga tgtcaatgag tgtgacctga atccaaatat ctgcctaagt
+     4081 gggacctgtg aaaacacgaa aggctcattt atctgccact gtgatatggg ctactccggc
+     4141 aaaaaaggaa aaactggctg tacagacatc aatgaatgtg aaattggagc acacaactgt
+     4201 ggcaaacatg ctgtatgtac caatacagca ggaagcttca aatgtagctg cagtcccggg
+     4261 tggattggag atggcattaa gtgcactgat ctggacgaat gttccaatgg aacccatatg
+     4321 tgcagccagc atgcagactg caagaatacc atgggatctt accgctgtct gtgcaaggaa
+     4381 ggatacacag gtgatggctt cacttgtaca gaccttgatg agtgctctga gaacctgaat
+     4441 ctctgtggca atggccagtg cctcaatgca ccaggaggat accgctgtga atgcgacatg
+     4501 ggcttcgtgc ccagtgctga cgggaaagcc tgtgaagata ttgatgagtg ctcccttccg
+     4561 aacatctgtg tctttggaac ttgccacaac ctccctggcc tgttccgctg tgagtgtgag
+     4621 ataggctacg aactggacag aagcggcggg aactgcacag atgtgaatga atgcctggat
+     4681 ccaaccacgt gcatcagtgg gaactgtgtc aacactccag gcagctatat ctgtgactgc
+     4741 ccacctgatt ttgaactgaa cccaactcga gttggctgtg ttgatacccg ctctggaaat
+     4801 tgctatttgg atattcgacc tcgaggagac aatggagata cagcctgcag caatgaaatt
+     4861 ggagttggtg tttccaaagc ttcctgctgc tgttctctgg gtaaagcctg gggtactcct
+     4921 tgtgagatgt gtcctgctgt gaacacatcc gagtacaaaa ttctttgtcc tggaggggaa
+     4981 ggtttccgac caaatcctat caccgttata ttggaagata ttgatgagtg ccaggagcta
+     5041 ccagggctgt gccaaggagg aaaatgtatc aacacctttg ggagtttcca gtgccgctgt
+     5101 ccaaccggct actacctgaa tgaagataca cgagtgtgtg atgatgtgaa tgaatgtgag
+     5161 actcctggaa tctgtggtcc agggacatgt tacaacaccg ttggcaacta cacctgtatc
+     5221 tgtcctccag actacatgca agtgaatggg ggaaataatt gcatggatat gagaagaagt
+     5281 ttgtgctaca gaaactacta tgctgacaac cagacctgtg atggagaatt gttattcaac
+     5341 atgaccaaga agatgtgctg ctgttcctac aacattggcc gggcgtggaa caagccctgt
+     5401 gaacagtgtc ccatcccaag tacagatgag tttgctacac tctgtggaag tcaaaggcca
+     5461 ggctttgtca tcgacattta taccggttta cccgttgata ttgatgagtg ccgggagatc
+     5521 ccaggggtct gtgaaaatgg agtgtgtatc aacatggttg gcagcttccg atgtgaatgt
+     5581 ccagtgggat tcttctataa tgacaagttg ttggtttgtg aagatattga cgagtgtcag
+     5641 aacggcccag tgtgccagcg caacgccgaa tgcatcaaca ctgcaggcag ctaccgctgt
+     5701 gactgtaagc ccggctaccg cttcacctcc acaggacagt gcaatgatcg taatgaatgt
+     5761 caagaaatcc ccaatatatg cagtcatggg cagtgcattg acacagttgg aagcttttat
+     5821 tgcctttgcc acactggttt taaaacaaat gatgaccaaa ccatgtgctt ggacataaat
+     5881 gaatgtgaaa gagatgcctg tgggaatgga acttgccgga acacaattgg ttccttcaac
+     5941 tgccgctgca atcatggttt catcctttct cacaacaatg actgtataga tgttgatgaa
+     6001 tgtgcaagtg gaaatgggaa tctttgcaga aatggccaat gcattaatac agtggggtct
+     6061 ttccagtgcc agtgcaatga aggctatgag gtggctccag atgggaggac ctgtgtggat
+     6121 atcaatgaat gtcttctaga acccagaaaa tgtgcaccag gtacctgtca aaacttggat
+     6181 gggtcctaca gatgcatttg cccacctgga tacagtcttc aaaatgagaa gtgtgaagat
+     6241 attgatgagt gtgtcgaaga gccagaaatt tgtgccctgg gcacatgcag taacactgaa
+     6301 ggcagcttca aatgtctgtg tccagaaggg ttttccttgt cctccagtgg aagaaggtgc
+     6361 caagatttgc gaatgagcta ctgttatgcg aagtttgaag gaggaaagtg ttcatcaccc
+     6421 aaatccagaa atcactccaa gcaggaatgc tgctgtgcct tgaagggaga aggctgggga
+     6481 gacccctgcg agctctgccc cacggaacct gatgaggcct tccgccagat atgtccttat
+     6541 ggaagtggga tcatcgtggg acctgatgat tcagcagttg atatggacga atgcaaagaa
+     6601 cccgatgtct gtaaacatgg acagtgcatc aatacagatg gttcctatcg ctgcgagtgt
+     6661 ccctttggtt atattctagc agggaatgaa tgtgtagata ctgatgaatg ttctgttggc
+     6721 aatccttgtg gaaatggaac ctgcaagaat gtgattggag gttttgaatg cacctgcgag
+     6781 gagggatttg agcccggtcc aatgatgaca tgtgaagata taaatgaatg tgcccagaat
+     6841 cctctgctct gtgccttccg atgtgtgaac acttatgggt catatgaatg caaatgtccc
+     6901 gtgggatatg tgctcagaga agaccgtagg atgtgcaaag atgaggatga gtgtgaagag
+     6961 ggaaaacatg actgtactga aaaacaaatg gaatgcaaga acctcattgg cacatatatg
+     7021 tgcatctgtg gacccgggta tcagcggaga cctgatggag aaggctgtgt agatgagaat
+     7081 gaatgtcaga cgaagccagg gatctgtgag aatgggcgct gcctcaacac ccgtgggagc
+     7141 tacacctgtg agtgtaatga tgggtttacc gccagcccca accaggacga gtgccttgac
+     7201 aatcgggaag ggtactgctt cacagaggtg ctacaaaaca tgtgtcagat cggctccagc
+     7261 aacaggaacc ccgtcaccaa atcggaatgc tgctgtgacg gagggagagg ctggggtccc
+     7321 cactgtgaga tctgcccttt ccaggggact gtggctttca agaaactctg tccccatggc
+     7381 cgaggattca tgaccaatgg agcagatatc gatgaatgca aggttattca cgatgtttgc
+     7441 cgaaatgggg aatgtgtcaa tgacagagga tcatatcatt gcatttgtaa aactgggtac
+     7501 actccagata taactgggac ttcctgtgta gatctgaacg agtgcaacca ggctcccaaa
+     7561 ccctgcaatt ttatctgcaa aaacacagaa gggagttacc agtgttcatg cccgaaaggc
+     7621 tacattctgc aagaggatgg aaggagctgc aaagatcttg atgagtgtgc aaccaagcaa
+     7681 cacaactgcc agttcctatg tgttaacacc attggcggct tcacatgcaa atgtcctccc
+     7741 ggatttaccc aacaccatac gtcctgcatt gataacaatg aatgcacctc tgacatcaat
+     7801 ctgtgcgggt ctaagggcat ttgccagaac actcctggaa gcttcacctg tgaatgccag
+     7861 cggggattct cacttgatca gaccggctcc agctgtgaag acgtggacga gtgtgagggt
+     7921 aaccaccgct gccagcatgg ctgccagaac atcattgggg gctacaggtg cagctgcccc
+     7981 cagggctacc tccagcacta ccagtggaac cagtgtgttg atgaaaacga atgcctcagc
+     8041 gctcacatct gcggaggagc ctcctgtcac aacaccctgg ggagctacaa gtgcatgtgt
+     8101 cccgccggct tccagtatga acagttcagt ggaggatgcc aagacatcaa tgaatgtggc
+     8161 tctgcgcagg ccccctgcag ctatggctgt tccaataccg agggcggtta cctgtgtggc
+     8221 tgtccacctg gttacttccg cataggccaa gggcactgtg tttctggaat gggcatgggc
+     8281 cgaggaaacc cagagccacc tgtcagtggt gaaatggatg acaattcact ctccccagag
+     8341 gcttgttacg agtgtaagat caatggctac cccaaacggg gcaggaaacg gagaagcaca
+     8401 aacgaaactg atgcctccaa tatcgaggat cagtctgaga cagaagccaa tgtgagtctt
+     8461 gcaagttggg atgttgagaa gacagccatc tttgctttca atatttccca cgtcagtaac
+     8521 aaggttcgaa tcctagaact ccttccagct cttacaactc tgacgaatca caacagatac
+     8581 ttgatcgaat ctggaaatga agatggcttc tttaaaatca accaaaagga agggatcagc
+     8641 tacctccact tcacaaagaa gaagccagtg gctggaacct attcattaca aatcagtagt
+     8701 actccacttt ataaaaagaa agaacttaac caactagaag acaaatatga caaagactac
+     8761 ctcagtggtg aactgggtga taatctgaag atgaaaatcc aggttttgct tcattaattc
+     8821 accatccaga gaccaaataa ttaaaagaaa aacaaatata gataggtaga actatatttt
+     8881 cccccaatca gaatcatcat atcataggta caatctttca ccaagtaaat ttgtataaat
+     8941 aagcactatt ctttgtatta ccaaagcaag gtacaggtga ctaccctagt tcaaaacaac
+     9001 cactttctca ggcttctcat gtgtgtagct aagctacctt gtcatatgtg ttgattcttg
+     9061 aaaactggga cgtgtatttc cattgggggt tggccattta tgctgacatg ccatccttcc
+     9121 agcaaacgta cgggaatgtg ctttcaattg atggactact ctattttttg caaatttgta
+     9181 aactttgctt ctccaaatac aagtactagg ttgtccattt atggtaccta tttggtgcta
+     9241 gtaaattttc aaactagatt tataaatgca ctgtaatatg tacacaactt agaaaccaaa
+     9301 ttacaagtat tcagttccaa tacttcatta atttcaatca accaaagtta gttcagtagc
+     9361 ttatctcagt tatgagtata atacattaca tgtaaattaa gtgtgtgtat actgtaatcg
+     9421 tgctattttt tatcattgaa acatttataa actagaataa taatgccctt aatgtgaggg
+     9481 tttgtaatgg tgcttattaa gaccaaagac ttgttaaatg tatacaccaa gtggtaatga
+     9541 aatttcggtg actggcccac acgtgcatag aggtctggga ggaccaggaa acagcctcag
+     9601 tggccagagg atcaccagtg catccttcat cacagcatgt gcaatatgcc aagattaccc
+     9661 tcggtcattc ctgtcaacaa ggggtcaatg tcataaatgt cacaataaaa caatctcttc
+     9721 ttttttttag tttacccctt ggctttgtgt tcttgcatgg atttggggtt ggaggggcca
+     9781 ttccggaggc taaataaagt ctcctggatt taaattatcc tgggtctctt acttatggct
+     9841 tatgaaagta ccaaatgtat aaccactaga agaaaattta acatatgagt cgatcccttg
+     9901 ttttatccat tgaaagtagc agagtctggt gtcattaacc tgacttgctt gtgagaaatt
+     9961 tagattgtag agtcatttct gaaacatgac ctaattcatc ttgtgacttt taaatagtct
+    10021 taaataccaa gttcagtcat tgtcttagag cacatgaatt tcattataat agatttatca
+    10081 tgcccccctc tcaaatatac acagttttgg caagccttag gtgttctgtt ccattttttt
+    10141 ttcccctaaa catctttcgt tagtcaatgc tcatctaatt acaaagggat aatcccagac
+    10201 tgtatccaat tgctgtaact tttggtttct taatgtcata atttttaaag tctgttttat
+    10261 tttaagtgca atattgagta tttagctgtt aggctcaatc cgtcgatatg aaataatttt
+    10321 ttaaatccct aagggcagga aagcatttcg tggtagtgaa aataagagga aataagatgg
+    10381 catgaaggtg gtgggcggag aaactaggta ggacacagga aagtgctctc aaaaatcttt
+    10441 gaagagctca gctgaaaaaa atggagtaga tttggctcat actattccgg aaggcaaaac
+    10501 cagggtcagc tgatgtcagc cccagtttaa tacacacggt cccaattata gagctactca
+    10561 ctgaaagaat gggtttcctt gcattgtggt gagctccctg tcacaagata gaagagtttc
+    10621 agtctaggct taatggcaac cattggacaa agatgctttc ttccacctaa caggccatta
+    10681 acatcttaaa ggtatttttg tatctctaat tttgtttata ataggtgctc aacagaatga
+    10741 gctgaatggc tgttacaaag ggggtttgta ccttgggtaa gagattaaaa tataactcaa
+    10801 aatttccttc taacgctgca cctatggaac catgtgatag aggtgtatta aaattgttat
+    10861 cgaagaatat atagcatatg gtaaacaaca gtttgcatat ggaaaatgtc tttgataatt
+    10921 taaccagaac tgcattatat tcaataacgg attttcttta taacaaacaa caggggaaaa
+    10981 tggagttggc acacagtgga tcactttgat atttttaata gtccaagtct ggattttatt
+    11041 tattcctgag ccaacaattt tgaacagcat attttccatg tttctgactg taacaaaaca
+    11101 ttttcctcat tgttccattg taaatattcc tcttgttgga actcttttta atcctgagat
+    11161 ttaaacctgt acctttcaat tgtctgtgac ctttcaattt cactttcaat agttgaagaa
+    11221 cttggctttg taaatctctc agaagcttga aaatatcttg tctctacccc ctcagcccat
+    11281 ttcatttgcc aataattatt ttgtaagtag ggttgaaatg aactcagctg gccttgtgaa
+    11341 atgtttaaac ttgcacaaac aactacattt ttgttcaaca aatagcagtt tactcagcca
+    11401 aaatcacttt ggatattgcc attacaaata ctgttaaact tcagaaatca tgtctgtaaa
+    11461 ttagatgagc caaaataaag gacaattggg ttga
+//
+

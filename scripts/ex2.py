@@ -163,10 +163,10 @@ def format_blast_results(sequence_id: str, hits: List[Dict[str, Any]]) -> str:
         String formateado con los resultados
     """
     if not hits:
-        return f"\n=== BLAST Results for {sequence_id} ===\nNo significant hits found.\n"
+        return f"\n=== Resultados BLAST para {sequence_id} ===\nNo se encontraron coincidencias significativas.\n"
     
-    output = f"\n=== BLAST Results for {sequence_id} ===\n"
-    output += f"Found {len(hits)} significant hits:\n\n"
+    output = f"\n=== Resultados BLAST para {sequence_id} ===\n"
+    output += f"Se encontraron {len(hits)} coincidencias significativas:\n\n"
     
     for i, hit in enumerate(hits, 1):
         # Extraer información básica del título
@@ -178,26 +178,26 @@ def format_blast_results(sequence_id: str, hits: List[Dict[str, Any]]) -> str:
             protein_id = "Unknown"
             description = hit['title']
         
-        output += f"Hit #{i}:\n"
-        output += f"  Protein ID: {protein_id}\n"
-        output += f"  Description: {description}\n"
-        output += f"  Length: {hit['length']} aa\n"
-        output += f"  E-value: {hit['evalue']:.2e}\n"
-        output += f"  Score: {hit['score']} (Bits: {hit['bits']:.1f})\n"
-        output += f"  Identity: {hit['identity']} / {len(hit['query_seq'])} ({hit['identity']/len(hit['query_seq'])*100:.1f}%)\n"
-        output += f"  Positive: {hit['positive']} / {len(hit['query_seq'])} ({hit['positive']/len(hit['query_seq'])*100:.1f}%)\n"
-        output += f"  Query range: {hit['query_start']}-{hit['query_end']}\n"
-        output += f"  Subject range: {hit['subject_start']}-{hit['subject_end']}\n"
+        output += f"Coincidencia #{i}:\n"
+        output += f"  ID de Proteína: {protein_id}\n"
+        output += f"  Descripción: {description}\n"
+        output += f"  Longitud: {hit['length']} aa\n"
+        output += f"  Valor E: {hit['evalue']:.2e}\n"
+        output += f"  Puntuación: {hit['score']} (Bits: {hit['bits']:.1f})\n"
+        output += f"  Identidad: {hit['identity']} / {len(hit['query_seq'])} ({hit['identity']/len(hit['query_seq'])*100:.1f}%)\n"
+        output += f"  Positivos: {hit['positive']} / {len(hit['query_seq'])} ({hit['positive']/len(hit['query_seq'])*100:.1f}%)\n"
+        output += f"  Rango de consulta: {hit['query_start']}-{hit['query_end']}\n"
+        output += f"  Rango de sujeto: {hit['subject_start']}-{hit['subject_end']}\n"
         
         # Mostrar alineamiento (primeros 60 caracteres)
         query_preview = hit['query_seq'][:60]
         match_preview = hit['match_seq'][:60]
         subject_preview = hit['subject_seq'][:60]
         
-        output += f"  Alignment preview:\n"
-        output += f"    Query:  {query_preview}\n"
-        output += f"    Match:  {match_preview}\n"
-        output += f"    Subject: {subject_preview}\n"
+        output += f"  Vista previa del alineamiento:\n"
+        output += f"    Consulta:  {query_preview}\n"
+        output += f"    Coincidencia:  {match_preview}\n"
+        output += f"    Sujeto: {subject_preview}\n"
         output += "\n"
     
     return output
@@ -239,7 +239,7 @@ def process_sequences(input_file: Path, max_hits: int, evalue_threshold: float, 
                 formatted_results = format_blast_results(seq_record.id, hits)
                 all_results.append(formatted_results)
             else:
-                all_results.append(f"\n=== BLAST Results for {seq_record.id} ===\nError: No se pudieron obtener resultados BLAST.\n")
+                all_results.append(f"\n=== Resultados BLAST para {seq_record.id} ===\nError: No se pudieron obtener resultados BLAST.\n")
             
             # Delay entre búsquedas para no sobrecargar NCBI
             if i < len(sequences):
@@ -256,9 +256,9 @@ def process_sequences(input_file: Path, max_hits: int, evalue_threshold: float, 
 def write_results(output_file: Path, results: str) -> None:
     """Escribe los resultados en el archivo de salida."""
     with output_file.open("w", encoding="utf-8") as fh:
-        fh.write("BLAST Analysis Results\n")
+        fh.write("Resultados del Análisis BLAST\n")
         fh.write("=" * 50 + "\n")
-        fh.write(f"Generated on: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
+        fh.write(f"Generado el: {time.strftime('%Y-%m-%d %H:%M:%S')}\n")
         fh.write("\n")
         fh.write(results)
 
@@ -275,9 +275,9 @@ def main() -> int:
     print(f"[INFO] Iniciando análisis BLAST...")
     print(f"[INFO] Archivo de entrada: {input_file}")
     print(f"[INFO] Archivo de salida: {output_file}")
-    print(f"[INFO] Máximo hits por secuencia: {args.max_hits}")
-    print(f"[INFO] Umbral de E-value: {args.evalue}")
-    print(f"[INFO] Delay entre búsquedas: {args.delay}s")
+    print(f"[INFO] Máximo coincidencias por secuencia: {args.max_hits}")
+    print(f"[INFO] Umbral de valor E: {args.evalue}")
+    print(f"[INFO] Retraso entre búsquedas: {args.delay}s")
     
     # Procesar secuencias
     results = process_sequences(input_file, args.max_hits, args.evalue, args.delay)
