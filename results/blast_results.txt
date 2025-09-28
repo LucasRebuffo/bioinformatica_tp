@@ -1,0 +1,472 @@
+Resultados del Análisis BLAST
+==================================================
+Generado el: 2025-09-28 15:35:26
+
+
+=== Resultados BLAST para NM_000138.5 ===
+Se encontraron 10 coincidencias significativas:
+
+Coincidencia #1:
+  ID de Proteína: Unknown
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 0.00e+00
+  Puntuación: 14965.0 (Bits: 5769.1)
+  Identidad: 2870 / 2871 (100.0%)
+  Positivos: 2870 / 2871 (100.0%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 132-3002
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #2:
+  ID de Proteína: NP_001393645.1
+  Descripción: fibrillin 1 [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14956.0 (Bits: 5765.6)
+  Identidad: 2871 / 2871 (100.0%)
+  Positivos: 2871 / 2871 (100.0%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #3:
+  ID de Proteína: AAB29419.1
+  Descripción: fibrillin [human, Marfan syndrome patient, Peptide Mutant, 2871 aa] [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14950.0 (Bits: 5763.3)
+  Identidad: 2869 / 2871 (99.9%)
+  Positivos: 2869 / 2871 (99.9%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #4:
+  ID de Proteína: XP_034794619.1
+  Descripción: FBN1 isoform 1 [Pan troglodytes]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14947.0 (Bits: 5762.2)
+  Identidad: 2869 / 2871 (99.9%)
+  Positivos: 2869 / 2871 (99.9%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEI LGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIVLGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #5:
+  ID de Proteína: Unknown
+  Descripción: gb|ADO22212.1| epididymis secretory sperm binding protein [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14945.0 (Bits: 5761.4)
+  Identidad: 2870 / 2871 (100.0%)
+  Positivos: 2870 / 2871 (100.0%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #6:
+  ID de Proteína: Unknown
+  Descripción: dbj|BAD16739.1| fibrillin 1 [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14942.0 (Bits: 5760.3)
+  Identidad: 2869 / 2871 (99.9%)
+  Positivos: 2869 / 2871 (99.9%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #7:
+  ID de Proteína: Unknown
+  Descripción: ref|XP_018866587.1| fibrillin-1 isoform X1 [Gorilla gorilla gorilla]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14923.0 (Bits: 5752.9)
+  Identidad: 2865 / 2871 (99.8%)
+  Positivos: 2867 / 2871 (99.9%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRG LLEI LGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGGLLEIVLGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #8:
+  ID de Proteína: Unknown
+  Descripción: gb|EAW77353.1| fibrillin 1 (Marfan syndrome), isoform CRA_a [Homo sapiens]
+  Longitud: 2869 aa
+  Valor E: 0.00e+00
+  Puntuación: 14917.0 (Bits: 5750.6)
+  Identidad: 2868 / 2871 (99.9%)
+  Positivos: 2868 / 2871 (99.9%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2869
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #9:
+  ID de Proteína: XP_054306903.1
+  Descripción: FBN1 isoform 1 [Pongo abelii]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14910.0 (Bits: 5747.9)
+  Identidad: 2861 / 2871 (99.7%)
+  Positivos: 2865 / 2871 (99.8%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRG LLEI LGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGGLLEIVLGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #10:
+  ID de Proteína: Unknown
+  Descripción: gb|KAL4682111.1| hypothetical protein H8957_006854 [Semnopithecus entellus]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14903.0 (Bits: 5745.2)
+  Identidad: 2857 / 2871 (99.5%)
+  Positivos: 2864 / 2871 (99.8%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRG LLEI LGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGGLLEILLGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+
+
+=== Resultados BLAST para NM_001406716.1 ===
+Se encontraron 10 coincidencias significativas:
+
+Coincidencia #1:
+  ID de Proteína: Unknown
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 0.00e+00
+  Puntuación: 14965.0 (Bits: 5769.1)
+  Identidad: 2870 / 2871 (100.0%)
+  Positivos: 2870 / 2871 (100.0%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 132-3002
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #2:
+  ID de Proteína: NP_001393645.1
+  Descripción: fibrillin 1 [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14956.0 (Bits: 5765.6)
+  Identidad: 2871 / 2871 (100.0%)
+  Positivos: 2871 / 2871 (100.0%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #3:
+  ID de Proteína: AAB29419.1
+  Descripción: fibrillin [human, Marfan syndrome patient, Peptide Mutant, 2871 aa] [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14950.0 (Bits: 5763.3)
+  Identidad: 2869 / 2871 (99.9%)
+  Positivos: 2869 / 2871 (99.9%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #4:
+  ID de Proteína: XP_034794619.1
+  Descripción: FBN1 isoform 1 [Pan troglodytes]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14947.0 (Bits: 5762.2)
+  Identidad: 2869 / 2871 (99.9%)
+  Positivos: 2869 / 2871 (99.9%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEI LGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIVLGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #5:
+  ID de Proteína: Unknown
+  Descripción: gb|ADO22212.1| epididymis secretory sperm binding protein [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14945.0 (Bits: 5761.4)
+  Identidad: 2870 / 2871 (100.0%)
+  Positivos: 2870 / 2871 (100.0%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #6:
+  ID de Proteína: Unknown
+  Descripción: dbj|BAD16739.1| fibrillin 1 [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14942.0 (Bits: 5760.3)
+  Identidad: 2869 / 2871 (99.9%)
+  Positivos: 2869 / 2871 (99.9%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #7:
+  ID de Proteína: Unknown
+  Descripción: ref|XP_018866587.1| fibrillin-1 isoform X1 [Gorilla gorilla gorilla]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14923.0 (Bits: 5752.9)
+  Identidad: 2865 / 2871 (99.8%)
+  Positivos: 2867 / 2871 (99.9%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRG LLEI LGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGGLLEIVLGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #8:
+  ID de Proteína: Unknown
+  Descripción: gb|EAW77353.1| fibrillin 1 (Marfan syndrome), isoform CRA_a [Homo sapiens]
+  Longitud: 2869 aa
+  Valor E: 0.00e+00
+  Puntuación: 14917.0 (Bits: 5750.6)
+  Identidad: 2868 / 2871 (99.9%)
+  Positivos: 2868 / 2871 (99.9%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2869
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #9:
+  ID de Proteína: XP_054306903.1
+  Descripción: FBN1 isoform 1 [Pongo abelii]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14910.0 (Bits: 5747.9)
+  Identidad: 2861 / 2871 (99.7%)
+  Positivos: 2865 / 2871 (99.8%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRG LLEI LGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGGLLEIVLGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #10:
+  ID de Proteína: Unknown
+  Descripción: gb|KAL4682111.1| hypothetical protein H8957_006854 [Semnopithecus entellus]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14903.0 (Bits: 5745.2)
+  Identidad: 2857 / 2871 (99.5%)
+  Positivos: 2864 / 2871 (99.8%)
+  Rango de consulta: 1-2871
+  Rango de sujeto: 1-2871
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRG LLEI LGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGGLLEILLGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+
+
+=== Resultados BLAST para NM_001406717.1 ===
+Se encontraron 10 coincidencias significativas:
+
+Coincidencia #1:
+  ID de Proteína: Unknown
+  Descripción: ref|NP_001393646.1| fibrillin-1 isoform b preproprotein [Homo sapiens]
+  Longitud: 306 aa
+  Valor E: 0.00e+00
+  Puntuación: 1597.0 (Bits: 619.8)
+  Identidad: 306 / 306 (100.0%)
+  Positivos: 306 / 306 (100.0%)
+  Rango de consulta: 1-306
+  Rango de sujeto: 1-306
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #2:
+  ID de Proteína: Unknown
+  Descripción: ref|XP_063452696.1| fibrillin-1 isoform X2 [Pan paniscus]
+  Longitud: 306 aa
+  Valor E: 0.00e+00
+  Puntuación: 1581.0 (Bits: 613.6)
+  Identidad: 303 / 306 (99.0%)
+  Positivos: 304 / 306 (99.3%)
+  Rango de consulta: 1-306
+  Rango de sujeto: 1-306
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEI LGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIVLGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #3:
+  ID de Proteína: Unknown
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 0.00e+00
+  Puntuación: 1501.0 (Bits: 582.8)
+  Identidad: 287 / 287 (100.0%)
+  Positivos: 287 / 287 (100.0%)
+  Rango de consulta: 1-287
+  Rango de sujeto: 132-418
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+Coincidencia #4:
+  ID de Proteína: Unknown
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 2.05e-18
+  Puntuación: 245.0 (Bits: 99.0)
+  Identidad: 54 / 121 (44.6%)
+  Positivos: 73 / 121 (60.3%)
+  Rango de consulta: 180-287
+  Rango de sujeto: 1659-1778
+  Vista previa del alineamiento:
+    Consulta:  DYRTGPCFTVI------SNQMCQGQLSGIVCTKTLCCATVGRAWGHPCEMCPAQPH----
+    Coincidencia:  D R+G C+  I       +  C  ++ G+  +K  CC ++G+AWG PCEMCPA       
+    Sujeto: DTRSGNCYLDIRPRGDNGDTACSNEI-GVGVSKASCCCSLGKAWGTPCEMCPAVNTSEYK
+
+Coincidencia #5:
+  ID de Proteína: Unknown
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 5.03e-13
+  Puntuación: 204.0 (Bits: 83.2)
+  Identidad: 49 / 119 (41.2%)
+  Positivos: 62 / 119 (52.1%)
+  Rango de consulta: 180-287
+  Rango de sujeto: 1820-1938
+  Vista previa del alineamiento:
+    Consulta:  DYRTGPCF--TVISNQMCQGQLSGIVCTKTLCCA-TVGRAWGHPCEMCPAQPHP------
+    Coincidencia:  D R   C+      NQ C G+L   +  K  CC+  +GRAW  PCE CP           
+    Sujeto: DMRRSLCYRNYYADNQTCDGELLFNMTKKMCCCSYNIGRAWNKPCEQCPIPSTDEFATLC
+
+Coincidencia #6:
+  ID de Proteína: Unknown
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 3.12e-12
+  Puntuación: 197.0 (Bits: 80.5)
+  Identidad: 39 / 103 (37.9%)
+  Positivos: 64 / 103 (62.1%)
+  Rango de consulta: 184-286
+  Rango de sujeto: 982-1081
+  Vista previa del alineamiento:
+    Consulta:  GPCFTVISNQMCQGQLSGIVCTKTLCCATVGRAWGHPCEMCPAQPHPCRRGFIPNIRTGA
+    Coincidencia:  G C+  + +  C+  ++G    K+ CC+++G AWG PC +C   P  C +G+   I+   
+    Sujeto: GTCWQTVIDGRCEININGAT-LKSQCCSSLGAAWGSPCTLCQVDPI-CGKGY-SRIKGTQ
+
+Coincidencia #7:
+  ID de Proteína: Unknown
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 1.17e-08
+  Puntuación: 169.0 (Bits: 69.7)
+  Identidad: 57 / 152 (37.5%)
+  Positivos: 73 / 152 (48.0%)
+  Rango de consulta: 149-286
+  Rango de sujeto: 2432-2573
+  Vista previa del alineamiento:
+    Consulta:  VCESG-CLNGGRCVAPNRCACTYGFTGPQCER---DYRTGPCFTVISNQMCQ-GQLSGIV
+    Coincidencia:  +CE+G CLN         C C  GFT    +    D R G CFT +   MCQ G  +   
+    Sujeto: ICENGRCLNT---RGSYTCECNDGFTASPNQDECLDNREGYCFTEVLQNMCQIGSSNRNP
+
+Coincidencia #8:
+  ID de Proteína: Unknown
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 6.67e-08
+  Puntuación: 164.0 (Bits: 67.8)
+  Identidad: 45 / 125 (36.0%)
+  Positivos: 61 / 125 (48.8%)
+  Rango de consulta: 165-279
+  Rango de sujeto: 2168-2290
+  Vista previa del alineamiento:
+    Consulta:  RCACTYGFT----GPQCERDYRTGPCFTVISNQMCQGQLSGIVCTKTLCCATVGRAWGHP
+    Coincidencia:  +C C  GF+    G +C+ D R   C+       C    S     +  CCA  G  WG P
+    Sujeto: KCLCPEGFSLSSSGRRCQ-DLRMSYCYAKFEGGKCSSPKSRNHSKQECCCALKGEGWGDP
+
+Coincidencia #9:
+  ID de Proteína: Unknown
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 6.26e-04
+  Puntuación: 132.0 (Bits: 55.5)
+  Identidad: 67 / 236 (28.4%)
+  Positivos: 87 / 236 (36.9%)
+  Rango de consulta: 114-287
+  Rango de sujeto: 702-937
+  Vista previa del alineamiento:
+    Consulta:  RSIQHCNIR--CMNGGSCSDD---HCLCQKGY----IGTHCGQ-PVCES-GCLNGGRCVA
+    Coincidencia:    +  C+IR  C+NG   ++D    C+C+ G+     G +C     CE+ G    GRCV 
+    Sujeto: EDMDECSIRNMCLNGMCINEDGSFKCICKPGFQLASDGRYCKDINECETPGICMNGRCVN
+
+Coincidencia #10:
+  ID de Proteína: Unknown
+  Descripción: dbj|BAD16739.1| fibrillin 1 [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 1499.0 (Bits: 582.0)
+  Identidad: 287 / 287 (100.0%)
+  Positivos: 287 / 287 (100.0%)
+  Rango de consulta: 1-287
+  Rango de sujeto: 1-287
+  Vista previa del alineamiento:
+    Consulta:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Coincidencia:  MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+    Sujeto: MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+
+
+
+=== Resultados BLAST para NM_001406718.1 ===
+No se encontraron coincidencias significativas.
