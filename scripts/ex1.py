@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
 """
-Exercise 1 – Processing sequences from GenBank (mRNA NM_... records)
+Ejercicio 1 – Procesamiento de secuencias de GenBank (registros de ARNm NM_...)
 
-Features:
-- Reads one or more GenBank files containing mRNA reference sequences (NM_...)
-- For each record, generates all 6 reading frames (3 forward, 3 reverse-complement)
-- Translates frames to amino acid sequences
-- Detects open reading frames (ORFs) using start codon 'M' and stop '*'
-- Selects the best frame as the one containing the longest ORF (configurable)
-- Writes amino acid sequences to a FASTA output file, including best-frame annotation
+Características:
+- Lee uno o más archivos GenBank que contienen secuencias de referencia de ARNm (NM_...)
+- Para cada registro, genera los 6 marcos de lectura (3 directos, 3 reverso-complementarios)
+- Traduce los marcos a secuencias de aminoácidos
+- Detecta marcos de lectura abiertos (ORFs) usando el codón de inicio 'M' y de parada '*'
+- Selecciona el mejor marco como aquel que contiene el ORF más largo (configurable)
+- Escribe las secuencias de aminoácidos en un archivo de salida FASTA, incluyendo la anotación del mejor marco
 
-Usage:
+Uso:
     python ex1.py --input NMxxxx.gbk [NMyyyy.gbk ...] --output output.fasta
 
-If a GenBank file contains multiple records, each will be processed.
+Si un archivo GenBank contiene múltiples registros, cada uno será procesado.
 
-Notes:
-- Requires Biopython.
+Notas:
+- Requiere Biopython.
 """
 
 from __future__ import annotations
@@ -68,30 +68,34 @@ def parse_args() -> argparse.Namespace:
 
 
 def generate_six_frames(dna: Seq) -> List[Tuple[str, Seq]]:
-    """Return the six reading frames as (frame_label, aa_seq) without stop stripping.
+    """Devuelve los seis marcos de lectura como (etiqueta_marco, sec_aa) sin eliminar codones de parada.
 
-    Frames are labeled: +1, +2, +3, -1, -2, -3
+    Los marcos se etiquetan: +1, +2, +3, -1, -2, -3
     """
     frames: List[Tuple[str, Seq]] = []
-    # Forward frames
+    # Marcos de lectura directos
     for offset in range(3):
         frame_nt = dna[offset:]
+        # Trim to multiple of 3 to avoid partial codon warning
+        frame_nt = frame_nt[:len(frame_nt) - (len(frame_nt) % 3)]
         aa = frame_nt.translate(to_stop=False)
         frames.append((f"+{offset+1}", aa))
     # Reverse complement frames
     rc = dna.reverse_complement()
     for offset in range(3):
         frame_nt = rc[offset:]
+        # Trim to multiple of 3 to avoid partial codon warning
+        frame_nt = frame_nt[:len(frame_nt) - (len(frame_nt) % 3)]
         aa = frame_nt.translate(to_stop=False)
         frames.append((f"-{offset+1}", aa))
     return frames
 
 
 def find_orfs_in_aa(aa_seq: Seq, min_len: int) -> List[Tuple[int, int, Seq]]:
-    """Find ORFs in an amino acid sequence.
+    """Encuentra ORFs en una secuencia de aminoácidos.
 
-    Returns list of (start_index, end_index, orf_seq), where indices are 0-based, end exclusive.
-    ORF definition: start at 'M', end at next '*' or sequence end. Must be >= min_len aa.
+    Devuelve una lista de (indice_inicio, indice_fin, sec_orf), donde los índices son base 0 y el final es exclusivo.
+    Definición de ORF: comienza en 'M', termina en el siguiente '*' o al final de la secuencia. Debe ser >= min_len aa.
     """
     orfs: List[Tuple[int, int, Seq]] = []
     start_pos = None
@@ -112,9 +116,9 @@ def find_orfs_in_aa(aa_seq: Seq, min_len: int) -> List[Tuple[int, int, Seq]]:
 
 
 def select_best_frame(frames_orfs: List[Tuple[str, List[Tuple[int, int, Seq]]]]) -> Tuple[str, Tuple[int, int, Seq]] | None:
-    """Select the best frame by longest ORF length.
+    """Selecciona el mejor marco por la longitud del ORF más largo.
 
-    Returns (frame_label, (start, end, orf_seq)) or None if no ORFs found.
+    Devuelve (etiqueta_marco, (inicio, fin, sec_orf)) o None si no se encuentran ORFs.
     """
     best: Tuple[str, Tuple[int, int, Seq]] | None = None
     best_len = -1
@@ -132,14 +136,14 @@ def fasta_header(record_id: str, frame_label: str, start: int, end: int, is_best
 
 
 def safe_record_id(rec) -> str:
-    # Prefer accession or id
+    # Preferir accession o id
     rid = getattr(rec, "id", None) or getattr(rec, "name", None) or "unknown"
-    # Remove spaces to keep FASTA id clean
+    # Eliminar espacios para mantener limpio el id de FASTA
     return rid.replace(" ", "_")
 
 
 def process_record(rec, min_orf_len: int, write_all_frames: bool) -> List[Tuple[str, str]]:
-    """Process one SeqRecord; return list of (header, aa_sequence) strings for FASTA.
+    """Procesa un SeqRecord; devuelve una lista de tuplas (cabecera, secuencia_aa) para el FASTA.
     """
     dna: Seq = rec.seq
     record_id = safe_record_id(rec)
@@ -161,13 +165,13 @@ def process_record(rec, min_orf_len: int, write_all_frames: bool) -> List[Tuple[
             header = fasta_header(record_id, frame_label, start, end, is_best)
             outputs.append((header, str(orf_seq)))
 
-    # Optionally include raw full-frame translations (for traceability)
+    # Opcionalmente, incluir traducciones completas de los marcos (para trazabilidad)
     if write_all_frames:
         for frame_label, aa in frames:
             header = f">{record_id} frame={frame_label} full_translation"
             outputs.append((header, str(aa)))
 
-    # If no ORFs found, still include the longest full translation per frame to aid debugging
+    # Si no se encuentran ORFs, incluir la traducción completa más larga por marco para ayudar a depurar
     if not outputs:
         for frame_label, aa in frames:
             header = f">{record_id} frame={frame_label} no_orf_minlen"
@@ -180,7 +184,7 @@ def write_fasta(output_path: Path, entries: Iterable[Tuple[str, str]]) -> None:
     with output_path.open("w", encoding="utf-8") as fh:
         for header, seq in entries:
             fh.write(header + "\n")
-            # Wrap to 60 chars per FASTA line
+            # Ajustar a 60 caracteres por línea de FASTA
             for i in range(0, len(seq), 60):
                 fh.write(seq[i:i+60] + "\n")
 
@@ -197,7 +201,7 @@ def main() -> int:
             continue
         try:
             for rec in SeqIO.parse(str(path), "genbank"):
-                # Only process nucleotide sequences; guard if input has aa
+                # Solo procesar secuencias de nucleótidos; protección si el input tiene aa
                 if rec.seq and set(str(rec.seq.upper())) <= set("ACGTUNacgtun") | {"N", "n"}:
                     entries = process_record(
                         rec,

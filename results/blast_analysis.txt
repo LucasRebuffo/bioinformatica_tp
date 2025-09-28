@@ -1,0 +1,558 @@
+BLAST Analysis Results
+==================================================
+Generated on: 2025-09-28 13:23:43
+
+
+=== BLAST Results for NM_022555.4 ===
+Found 5 significant hits:
+
+Hit #1:
+  Protein ID: Unknown
+  Description: dbj|BAA24408.1| MHC ClassII HLA-DR-beta 1 chain, partial [Homo sapiens]
+  Length: 70 aa
+  E-value: 2.09e-08
+  Score: 131.0 (Bits: 55.1)
+  Identity: 28 / 31 (90.3%)
+  Positive: 30 / 31 (96.8%)
+  Query range: 1-31
+  Subject range: 4-34
+  Alignment preview:
+    Query:  MGRSGCGTWTDTSITRRSSCASTATWGSTGR
+    Match:  MGRSGCG+WTDTSITRRS CASTATWGS+GR
+    Subject: MGRSGCGSWTDTSITRRSPCASTATWGSSGR
+
+Hit #2:
+  Protein ID: Unknown
+  Description: gb|ADP94163.1| truncated MHC class II antigen, partial [Homo sapiens]
+  Length: 44 aa
+  E-value: 8.03e-08
+  Score: 126.0 (Bits: 53.1)
+  Identity: 26 / 31 (83.9%)
+  Positive: 27 / 31 (87.1%)
+  Query range: 1-31
+  Subject range: 14-44
+  Alignment preview:
+    Query:  MGRSGCGTWTDTSITRRSSCASTATWGSTGR
+    Match:  MGRSGCG W D SIT+RS CASTATWGSTGR
+    Subject: MGRSGCGCWKDASITKRSPCASTATWGSTGR
+
+Hit #3:
+  Protein ID: Unknown
+  Description: emb|VUF78577.1| MHC class II antigen, partial [Canis lupus familiaris]
+  Length: 90 aa
+  E-value: 3.14e-06
+  Score: 118.0 (Bits: 50.1)
+  Identity: 27 / 30 (90.0%)
+  Positive: 28 / 30 (93.3%)
+  Query range: 2-31
+  Subject range: 16-45
+  Alignment preview:
+    Query:  GRSGCGTWTDTSITRRSSCASTATWGSTGR
+    Match:  GRSGCG+W DTSIT RSSCASTATWGSTGR
+    Subject: GRSGCGSWKDTSITGRSSCASTATWGSTGR
+
+Hit #4:
+  Protein ID: Unknown
+  Description: gb|AAK13509.1| MHC class II antigen beta chain, partial [Canis lupus]
+  Length: 90 aa
+  E-value: 7.85e-06
+  Score: 116.0 (Bits: 49.3)
+  Identity: 26 / 30 (86.7%)
+  Positive: 28 / 30 (93.3%)
+  Query range: 2-31
+  Subject range: 16-45
+  Alignment preview:
+    Query:  GRSGCGTWTDTSITRRSSCASTATWGSTGR
+    Match:  GRSGCG+W DTSIT RS+CASTATWGSTGR
+    Subject: GRSGCGSWKDTSITGRSTCASTATWGSTGR
+
+Hit #5:
+  Protein ID: Unknown
+  Description: emb|VUF78537.1| MHC class II antigen, partial [Canis lupus]
+  Length: 90 aa
+  E-value: 8.28e-06
+  Score: 116.0 (Bits: 49.3)
+  Identity: 26 / 30 (86.7%)
+  Positive: 28 / 30 (93.3%)
+  Query range: 2-31
+  Subject range: 16-45
+  Alignment preview:
+    Query:  GRSGCGTWTDTSITRRSSCASTATWGSTGR
+    Match:  GRSGCG+W DTSIT RS+CASTATWGSTGR
+    Subject: GRSGCGSWKDTSITGRSTCASTATWGSTGR
+
+
+
+=== BLAST Results for NM_022555.4 ===
+Found 5 significant hits:
+
+Hit #1:
+  Protein ID: P79483.1
+  Description: MHC class II antigen [Homo sapiens]
+  Length: 266 aa
+  E-value: 0.00e+00
+  Score: 1415.0 (Bits: 549.7)
+  Identity: 266 / 266 (100.0%)
+  Positive: 266 / 266 (100.0%)
+  Query range: 1-266
+  Subject range: 1-266
+  Alignment preview:
+    Query:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Match:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Subject: MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+
+Hit #2:
+  Protein ID: Unknown
+  Description: emb|CAN2532048.1| MHC class II antigen [Homo sapiens]
+  Length: 266 aa
+  E-value: 0.00e+00
+  Score: 1414.0 (Bits: 549.3)
+  Identity: 265 / 266 (99.6%)
+  Positive: 266 / 266 (100.0%)
+  Query range: 1-266
+  Subject range: 1-266
+  Alignment preview:
+    Query:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Match:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLE+RKSECHFFNGTERVRYLDRYF
+    Subject: MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLEMRKSECHFFNGTERVRYLDRYF
+
+Hit #3:
+  Protein ID: Unknown
+  Description: emb|CAN2532022.1| MHC class II antigen [Homo sapiens]
+  Length: 266 aa
+  E-value: 0.00e+00
+  Score: 1413.0 (Bits: 548.9)
+  Identity: 265 / 266 (99.6%)
+  Positive: 265 / 266 (99.6%)
+  Query range: 1-266
+  Subject range: 1-266
+  Alignment preview:
+    Query:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Match:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Subject: MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+
+Hit #4:
+  Protein ID: Unknown
+  Description: emb|CAN2532040.1| MHC class II antigen [Homo sapiens]
+  Length: 266 aa
+  E-value: 0.00e+00
+  Score: 1413.0 (Bits: 548.9)
+  Identity: 265 / 266 (99.6%)
+  Positive: 266 / 266 (100.0%)
+  Query range: 1-266
+  Subject range: 1-266
+  Alignment preview:
+    Query:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Match:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Subject: MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+
+Hit #5:
+  Protein ID: Unknown
+  Description: gb|WYX96515.1| MHC class II antigen [Homo sapiens]
+  Length: 266 aa
+  E-value: 0.00e+00
+  Score: 1412.0 (Bits: 548.5)
+  Identity: 265 / 266 (99.6%)
+  Positive: 266 / 266 (100.0%)
+  Query range: 1-266
+  Subject range: 1-266
+  Alignment preview:
+    Query:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Match:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Subject: MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+
+
+
+=== BLAST Results for NM_022555.4 ===
+No significant hits found.
+
+
+=== BLAST Results for NM_022555.4 ===
+No significant hits found.
+
+
+=== BLAST Results for NM_022555.4 ===
+No significant hits found.
+
+
+=== BLAST Results for NM_022555.4 ===
+No significant hits found.
+
+
+=== BLAST Results for NM_022555.4 ===
+Found 3 significant hits:
+
+Hit #1:
+  Protein ID: Unknown
+  Description: gb|KAL0622696.1| hypothetical protein AAY473_006284 [Plecturocebus cupreus]
+  Length: 369 aa
+  E-value: 1.18e-33
+  Score: 334.0 (Bits: 133.3)
+  Identity: 73 / 102 (71.6%)
+  Positive: 81 / 102 (79.4%)
+  Query range: 1-102
+  Subject range: 69-170
+  Alignment preview:
+    Query:  MDSPLHCEALTNPVVVSAVIVHPAPLLLQEVLLAVPGLGDRPPQLRHRPVLPHVAVEAQE
+    Match:  + SPLHCEALTNPVVVSA  VH  P  LQE LLAVPGL DRPPQLRHRPVLPHVAVEA +
+    Subject: LTSPLHCEALTNPVVVSAEGVHLGPSPLQEFLLAVPGLRDRPPQLRHRPVLPHVAVEAHK
+
+Hit #2:
+  Protein ID: Unknown
+  Description: gb|XQU59200.1| MHC class II antigen, partial [Panthera tigris]
+  Length: 79 aa
+  E-value: 3.07e-15
+  Score: 191.0 (Bits: 78.2)
+  Identity: 50 / 75 (66.7%)
+  Positive: 53 / 75 (70.7%)
+  Query range: 14-88
+  Subject range: 5-79
+  Alignment preview:
+    Query:  VVVSAVIVHPAPLLLQEVLLAVPGLGDRPPQLRHRPVLPHVAVEAQELLLVMEVSVQVPH
+    Match:  VVVSA  VH  P LL  VL  VP LG R PQLRHRPVLPH AVE Q LL VM VS+QVPH
+    Subject: VVVSAEPVHRCPRLLHVVLQPVPVLGARLPQLRHRPVLPHFAVETQVLLPVMIVSLQVPH
+
+Hit #3:
+  Protein ID: Unknown
+  Description: ref|XP_053761315.1| LOW QUALITY PROTEIN: 60S ribosomal protein L7a-like [Panthera pardus]
+  Length: 247 aa
+  E-value: 1.82e-05
+  Score: 133.0 (Bits: 55.8)
+  Identity: 37 / 75 (49.3%)
+  Positive: 44 / 75 (58.7%)
+  Query range: 8-79
+  Subject range: 4-78
+  Alignment preview:
+    Query:  EALTNPVVVSAVIVHPAPLLLQEVLLAVPGLGDRPPQLRHR---PVLPHVAVEAQELLLV
+    Match:  EAL NP+VVSA  V      + EVL+  P L  +PP   H     VLPH+AVE   L LV
+    Subject: EALNNPLVVSAETVRCGLRPIHEVLVLGPVLSVKPPLFCHHLPCSVLPHIAVEVHVLFLV
+
+
+
+=== BLAST Results for NM_022555.4 ===
+Found 5 significant hits:
+
+Hit #1:
+  Protein ID: Unknown
+  Description: emb|CAP05287.1| MHC class II antigen [Ovis aries]
+  Length: 234 aa
+  E-value: 9.73e-25
+  Score: 283.0 (Bits: 113.6)
+  Identity: 61 / 90 (67.8%)
+  Positive: 68 / 90 (75.6%)
+  Query range: 70-159
+  Subject range: 2-91
+  Alignment preview:
+    Query:  HVSWSCVSLSVISSMGRSGCGTWTDTSITRRSSCASTATWGSTGR*RSWGGLSPSPGTAR
+    Match:  H+SWS +  SV+S  GRSGCGTWTDTSI  +S+CAST T  ST R  SWGG +PS GTAR
+    Subject: HISWSIIRASVVSPTGRSGCGTWTDTSIMEKSTCASTTTGASTERWPSWGGRTPSTGTAR
+
+Hit #2:
+  Protein ID: UVN74376.1
+  Description: MHC class II antigen, partial [Ovis aries]
+  Length: 89 aa
+  E-value: 1.36e-24
+  Score: 270.0 (Bits: 108.6)
+  Identity: 63 / 89 (70.8%)
+  Positive: 70 / 89 (78.7%)
+  Query range: 70-158
+  Subject range: 1-89
+  Alignment preview:
+    Query:  HVSWSCVSLSVISSMGRSGCGTWTDTSITRRSSCASTATWGSTGR*RSWGGLSPSPGTAR
+    Match:  H+SWS +  SVISS GRSGCG+WTDTSI  +S+CASTAT  S+GR  SWGG +PS GTAR
+    Subject: HISWSMLRASVISSTGRSGCGSWTDTSIMEKSTCASTATGASSGRWPSWGGGAPSTGTAR
+
+Hit #3:
+  Protein ID: Unknown
+  Description: emb|VUF78574.1| MHC class II antigen, partial [Canis latrans]
+  Length: 90 aa
+  E-value: 2.60e-24
+  Score: 268.0 (Bits: 107.8)
+  Identity: 64 / 90 (71.1%)
+  Positive: 69 / 90 (76.7%)
+  Query range: 70-159
+  Subject range: 1-90
+  Alignment preview:
+    Query:  HVSWSCVSLSVISSMGRSGCGTWTDTSITRRSSCASTATWGSTGR*RSWGGLSPSPGTAR
+    Match:  H+SW   S S IS  GRSGCG+W DTSIT RS+CASTATWGSTGR RS GG + SPGT R
+    Subject: HISWRWQSSSAISPTGRSGCGSWKDTSITGRSTCASTATWGSTGRSRSSGGPTLSPGTGR
+
+Hit #4:
+  Protein ID: Unknown
+  Description: gb|ALM22932.1| MHC class II antigen, partial [Ovis aries]
+  Length: 90 aa
+  E-value: 2.68e-24
+  Score: 268.0 (Bits: 107.8)
+  Identity: 61 / 90 (67.8%)
+  Positive: 69 / 90 (76.7%)
+  Query range: 70-159
+  Subject range: 1-90
+  Alignment preview:
+    Query:  HVSWSCVSLSVISSMGRSGCGTWTDTSITRRSSCASTATWGSTGR*RSWGGLSPSPGTAR
+    Match:  H+SWS +  SVISSMGRSGCG+WTDTSI  +  CASTAT  S+GR  SWGG +PS GTAR
+    Subject: HISWSIIRASVISSMGRSGCGSWTDTSIMEKRPCASTATGASSGRWPSWGGRTPSTGTAR
+
+Hit #5:
+  Protein ID: Unknown
+  Description: emb|VUF78528.1| MHC class II antigen, partial [Canis lupus familiaris]
+  Length: 90 aa
+  E-value: 7.36e-24
+  Score: 265.0 (Bits: 106.7)
+  Identity: 63 / 90 (70.0%)
+  Positive: 69 / 90 (76.7%)
+  Query range: 70-159
+  Subject range: 1-90
+  Alignment preview:
+    Query:  HVSWSCVSLSVISSMGRSGCGTWTDTSITRRSSCASTATWGSTGR*RSWGGLSPSPGTAR
+    Match:  H+SW   S S IS  GRSGCG+W DTSIT R +CASTATWGSTGR RS GG + SPGT R
+    Subject: HISWRWQSPSAISPTGRSGCGSWKDTSITGRRTCASTATWGSTGRSRSSGGPTLSPGTGR
+
+
+
+=== BLAST Results for NM_022555.4 ===
+Found 5 significant hits:
+
+Hit #1:
+  Protein ID: Unknown
+  Description: ref|XP_040588203.1| H-2 class II histocompatibility antigen, I-E beta chain-like [Mesocricetus auratus]
+  Length: 368 aa
+  E-value: 1.49e-32
+  Score: 347.0 (Bits: 138.3)
+  Identity: 71 / 102 (69.6%)
+  Positive: 80 / 102 (78.4%)
+  Query range: 195-296
+  Subject range: 1-102
+  Alignment preview:
+    Query:  VVPERPGREGWGGVHGPDPEWRLDLPDPGDARNSSSEWRGLHLPSGAPKRNERSHSGMES
+    Match:  +VPE PG EGWG VHGPDPEWRLDLPDPGDA + SSEWRGLHLP GA +  +  HSG+E 
+    Subject: MVPEWPGGEGWGRVHGPDPEWRLDLPDPGDAGDGSSEWRGLHLPGGASQPEQPCHSGVEG
+
+Hit #2:
+  Protein ID: Unknown
+  Description: gb|AIC84035.1| putative MHC class II antigen E beta 1 isoform 2 [Mus musculus]
+  Length: 188 aa
+  E-value: 2.17e-25
+  Score: 284.0 (Bits: 114.0)
+  Identity: 60 / 87 (69.0%)
+  Positive: 67 / 87 (77.0%)
+  Query range: 217-303
+  Subject range: 102-188
+  Alignment preview:
+    Query:  LDLPDPGDARNSSSEWRGLHLPSGAPKRNERSHSGMESTV*ICTEQDAEWSRGLCAGPAL
+    Match:  +DLPD GDA + SSEWRGLHLP GA + +   H  +ESTV ICTEQD EWS GL AGPAL
+    Subject: VDLPDTGDAGDGSSEWRGLHLPGGASQPDRPCHGQVESTVHICTEQDVEWSWGLRAGPAL
+
+Hit #3:
+  Protein ID: Unknown
+  Description: ref|XP_036024230.1| HLA class II histocompatibility antigen, DRB1 beta chain-like isoform X1 [Onychomys torridus]
+  Length: 275 aa
+  E-value: 6.39e-20
+  Score: 251.0 (Bits: 101.3)
+  Identity: 67 / 149 (45.0%)
+  Positive: 82 / 149 (55.0%)
+  Query range: 152-300
+  Subject range: 113-261
+  Alignment preview:
+    Query:  ELHSAAASPSSGDCVSCKDPAPAAPQPPGLLCEWFLSRQH*SQVVPERPGREGWGGVHGP
+    Match:  E+ ++    + GD +  +D  P  PQ  GLL + FL     S +VPE PG +G G VH  
+    Subject: EVSTSLRRLAQGDHLPVQDGGPQPPQHAGLLSDRFLPSPDQSALVPEWPGGDGGGRVHEA
+
+Hit #4:
+  Protein ID: CAK9883614.1
+  Description: unnamed protein product, partial [Macaca mulatta]
+  Length: 268 aa
+  E-value: 6.66e-18
+  Score: 236.0 (Bits: 95.5)
+  Identity: 44 / 52 (84.6%)
+  Positive: 48 / 52 (92.3%)
+  Query range: 203-254
+  Subject range: 169-220
+  Alignment preview:
+    Query:  EGWGGVHGPDPEWRLDLPDPGDARNSSSEWRGLHLPSGAPKRNERSHSGMES
+    Match:  EGWGGVHGPDPEWRLDLPDPG+A NSSSEWRGLHLPSGA K ++ SHSGME+
+    Subject: EGWGGVHGPDPEWRLDLPDPGNAGNSSSEWRGLHLPSGASKHDQPSHSGMEA
+
+Hit #5:
+  Protein ID: Unknown
+  Description: emb|CAA68195.1| MHC class II HLA-DRB5, partial [Homo sapiens]
+  Length: 47 aa
+  E-value: 5.82e-17
+  Score: 213.0 (Bits: 86.7)
+  Identity: 43 / 47 (91.5%)
+  Positive: 43 / 47 (91.5%)
+  Query range: 196-242
+  Subject range: 1-47
+  Alignment preview:
+    Query:  VPERPGREGWGGVHGPDPEWRLDLPDPGDARNSSSEWRGLHLPSGAP
+    Match:  VPERPGREGWGGVH PD EWRLDLPD GDA NSSSEWRGLHLPSGAP
+    Subject: VPERPGREGWGGVHRPDSEWRLDLPDSGDAGNSSSEWRGLHLPSGAP
+
+
+
+=== BLAST Results for NM_022555.4 ===
+Found 5 significant hits:
+
+Hit #1:
+  Protein ID: P79483.1
+  Description: MHC class II antigen [Homo sapiens]
+  Length: 266 aa
+  E-value: 0.00e+00
+  Score: 1412.0 (Bits: 548.5)
+  Identity: 266 / 266 (100.0%)
+  Positive: 266 / 266 (100.0%)
+  Query range: 36-301
+  Subject range: 1-266
+  Alignment preview:
+    Query:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Match:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Subject: MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+
+Hit #2:
+  Protein ID: Unknown
+  Description: emb|CAM0868217.1| MHC class II antigen [Homo sapiens]
+  Length: 266 aa
+  E-value: 0.00e+00
+  Score: 1411.0 (Bits: 548.1)
+  Identity: 265 / 266 (99.6%)
+  Positive: 266 / 266 (100.0%)
+  Query range: 36-301
+  Subject range: 1-266
+  Alignment preview:
+    Query:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Match:  MVCLKLPGGSSLAALTVTLMVL+SRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Subject: MVCLKLPGGSSLAALTVTLMVLTSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+
+Hit #3:
+  Protein ID: Unknown
+  Description: emb|CAN2532048.1| MHC class II antigen [Homo sapiens]
+  Length: 266 aa
+  E-value: 0.00e+00
+  Score: 1411.0 (Bits: 548.1)
+  Identity: 265 / 266 (99.6%)
+  Positive: 266 / 266 (100.0%)
+  Query range: 36-301
+  Subject range: 1-266
+  Alignment preview:
+    Query:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Match:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLE+RKSECHFFNGTERVRYLDRYF
+    Subject: MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLEMRKSECHFFNGTERVRYLDRYF
+
+Hit #4:
+  Protein ID: Unknown
+  Description: emb|CAN2532022.1| MHC class II antigen [Homo sapiens]
+  Length: 266 aa
+  E-value: 0.00e+00
+  Score: 1409.0 (Bits: 547.4)
+  Identity: 265 / 266 (99.6%)
+  Positive: 265 / 266 (99.6%)
+  Query range: 36-301
+  Subject range: 1-266
+  Alignment preview:
+    Query:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Match:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Subject: MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+
+Hit #5:
+  Protein ID: Unknown
+  Description: emb|CAN2532040.1| MHC class II antigen [Homo sapiens]
+  Length: 266 aa
+  E-value: 0.00e+00
+  Score: 1409.0 (Bits: 547.4)
+  Identity: 265 / 266 (99.6%)
+  Positive: 266 / 266 (100.0%)
+  Query range: 36-301
+  Subject range: 1-266
+  Alignment preview:
+    Query:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Match:  MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+    Subject: MVCLKLPGGSSLAALTVTLMVLSSRLAFAGDTRPRFLELRKSECHFFNGTERVRYLDRYF
+
+
+
+=== BLAST Results for NM_022555.4 ===
+Found 2 significant hits:
+
+Hit #1:
+  Protein ID: Unknown
+  Description: gb|KAL0622695.1| hypothetical protein AAY473_006283, partial [Plecturocebus cupreus]
+  Length: 215 aa
+  E-value: 7.88e-15
+  Score: 211.0 (Bits: 85.9)
+  Identity: 44 / 55 (80.0%)
+  Positive: 45 / 55 (81.8%)
+  Query range: 343-397
+  Subject range: 75-129
+  Alignment preview:
+    Query:  VSPAKASRELSTISVTVNAAKLEPPGSFRHTMLEKRTGPGARGAGKSHSGRTMTP
+    Match:  VSPAKAS  LSTISVTV AA  EPPGS RHTMLE +TGPGAR A KS SGRTMTP
+    Subject: VSPAKASEVLSTISVTVRAAMQEPPGSLRHTMLENKTGPGARAADKSRSGRTMTP
+
+Hit #2:
+  Protein ID: Unknown
+  Description: gb|KAL0622697.1| putative uncharacterized protein SPANXA2-OT1 [Plecturocebus cupreus]
+  Length: 279 aa
+  E-value: 2.50e-13
+  Score: 203.0 (Bits: 82.8)
+  Identity: 44 / 56 (78.6%)
+  Positive: 44 / 56 (78.6%)
+  Query range: 342-397
+  Subject range: 14-69
+  Alignment preview:
+    Query:  RVSPAKASRELSTISVTVNAAKLEPPGSFRHTMLEKRTGPGARGAGKSHSGRTMTP
+    Match:  RVSPAKAS  LSTISVTV AA  EPPGS  HTMLE RTGPG R A KS SGRTMTP
+    Subject: RVSPAKASEVLSTISVTVRAAMQEPPGSLGHTMLENRTGPGVRAADKSRSGRTMTP
+
+
+
+=== BLAST Results for NM_022555.4 ===
+No significant hits found.
+
+
+=== BLAST Results for NM_022555.4 ===
+Found 3 significant hits:
+
+Hit #1:
+  Protein ID: Unknown
+  Description: gb|KAL0622696.1| hypothetical protein AAY473_006284 [Plecturocebus cupreus]
+  Length: 369 aa
+  E-value: 6.16e-31
+  Score: 335.0 (Bits: 133.7)
+  Identity: 73 / 102 (71.6%)
+  Positive: 81 / 102 (79.4%)
+  Query range: 249-350
+  Subject range: 69-170
+  Alignment preview:
+    Query:  MDSPLHCEALTNPVVVSAVIVHPAPLLLQEVLLAVPGLGDRPPQLRHRPVLPHVAVEAQE
+    Match:  + SPLHCEALTNPVVVSA  VH  P  LQE LLAVPGL DRPPQLRHRPVLPHVAVEA +
+    Subject: LTSPLHCEALTNPVVVSAEGVHLGPSPLQEFLLAVPGLRDRPPQLRHRPVLPHVAVEAHK
+
+Hit #2:
+  Protein ID: Unknown
+  Description: gb|XQU59200.1| MHC class II antigen, partial [Panthera tigris]
+  Length: 79 aa
+  E-value: 8.97e-14
+  Score: 192.0 (Bits: 78.6)
+  Identity: 50 / 75 (66.7%)
+  Positive: 53 / 75 (70.7%)
+  Query range: 262-336
+  Subject range: 5-79
+  Alignment preview:
+    Query:  VVVSAVIVHPAPLLLQEVLLAVPGLGDRPPQLRHRPVLPHVAVEAQELLLVMEVSVQVPH
+    Match:  VVVSA  VH  P LL  VL  VP LG R PQLRHRPVLPH AVE Q LL VM VS+QVPH
+    Subject: VVVSAEPVHRCPRLLHVVLQPVPVLGARLPQLRHRPVLPHFAVETQVLLPVMIVSLQVPH
+
+Hit #3:
+  Protein ID: Unknown
+  Description: ref|XP_053761315.1| LOW QUALITY PROTEIN: 60S ribosomal protein L7a-like [Panthera pardus]
+  Length: 247 aa
+  E-value: 2.51e-04
+  Score: 133.0 (Bits: 55.8)
+  Identity: 37 / 75 (49.3%)
+  Positive: 44 / 75 (58.7%)
+  Query range: 256-327
+  Subject range: 4-78
+  Alignment preview:
+    Query:  EALTNPVVVSAVIVHPAPLLLQEVLLAVPGLGDRPPQLRHR---PVLPHVAVEAQELLLV
+    Match:  EAL NP+VVSA  V      + EVL+  P L  +PP   H     VLPH+AVE   L LV
+    Subject: EALNNPLVVSAETVRCGLRPIHEVLVLGPVLSVKPPLFCHHLPCSVLPHIAVEVHVLFLV
+
