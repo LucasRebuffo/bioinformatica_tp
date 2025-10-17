@@ -6,10 +6,13 @@ Este proyecto contiene herramientas de bioinformática para el análisis de secu
 
 ```
 bioinformatica_tp/
-├── scripts/           # Scripts de Python
-│   ├── ex1.py        # Ejercicio 1: Procesamiento de secuencias GenBank
-│   └── ex2.py        # Ejercicio 2: Análisis BLAST de proteínas
+├── scripts/                   # Scripts de Python
+│   ├── clustal-omega-1.2.2/   # Proyecto Clustal Omega para alinear secuencias
+│   ├── ex1.py                 # Ejercicio 1: Procesamiento de secuencias GenBank
+│   └── ex2.py                 # Ejercicio 2: Análisis BLAST de proteínas
+│   └── ex3.py                 # Ejercicio 3: Alineación múltiple de secuencias
 ├── data/             # Archivos de datos de entrada
+│   ├── secuencias/   # Secuencias fasta para el ejercicio 3
 │   ├── NM_022555.gb  # Archivo GenBank de ejemplo
 │   └── INS_orfs.fasta # Secuencias de aminoácidos generadas
 ├── results/          # Archivos de resultados
@@ -91,6 +94,27 @@ python scripts/ex2.py --input results/orfs.fasta --output results/blast_results.
 python scripts/ex2.py -i results/INS_orfs.fasta -o results/blast_analysis.txt --max_hits 5 --evalue 0.01
 ```
 
+## Ejercicio 3 – Alineamiento de secuencias multiple
+
+**Script:** `scripts/ex3.py`
+
+Este script realiza una alineacióm múltiple de secuencias pertenecientes a especies que salieron del resultado BLAST del punto anterior.
+
+### Características
+- Lee archivos FASTA que se encuentra en la carpeta data/secuencias
+- Genera un archivo en donde combina todos los fasta (secuencias_combinadas.fa)
+- Genera un archivos en donde muestra la alineación de todas las secuencias (secuencias_alineadas.aln)
+
+### Uso
+```bash
+python scripts/ex3.py
+```
+
+### Ejemplo
+```bash
+python scripts/ex3.py
+```
+
 ## Flujo de Trabajo Completo
 
 1. **Preparar datos de entrada:**
@@ -109,6 +133,11 @@ python scripts/ex2.py -i results/INS_orfs.fasta -o results/blast_analysis.txt --
    python scripts/ex2.py -i results/orfs.fasta -o results/blast_analysis.txt --max_hits 10
    ```
 
+4. **Realizar alineación múltimple de secuencias:**
+   ```bash
+   python scripts/ex3.py
+   ```
+   
 ## Características Técnicas
 
 ### Mejoras Implementadas
