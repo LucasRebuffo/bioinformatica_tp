@@ -94,25 +94,36 @@ python scripts/ex2.py --input results/orfs.fasta --output results/blast_results.
 python scripts/ex2.py -i results/INS_orfs.fasta -o results/blast_analysis.txt --max_hits 5 --evalue 0.01
 ```
 
-## Ejercicio 3 – Alineamiento de secuencias multiple
+## Ejercicio 3 – Alineamiento Múltiple de Secuencias
 
 **Script:** `scripts/ex3.py`
 
-Este script realiza una alineacióm múltiple de secuencias pertenecientes a especies que salieron del resultado BLAST del punto anterior.
+Este script realiza alineamiento múltiple de secuencias de nucleótidos usando Clustal Omega. Combina archivos FASTA de entrada y genera un alineamiento múltiple de alta calidad.
 
 ### Características
-- Lee archivos FASTA que se encuentra en la carpeta data/secuencias
-- Genera un archivo en donde combina todos los fasta (secuencias_combinadas.fa)
-- Genera un archivos en donde muestra la alineación de todas las secuencias (secuencias_alineadas.aln)
+- Lee archivos FASTA desde un directorio especificado
+- Combina múltiples archivos FASTA en un archivo limpio
+- Realiza alineamiento múltiple usando Clustal Omega
+- Limpia automáticamente secuencias (solo nucleótidos válidos)
+- Normaliza IDs de secuencias
+- Auto-detecta el ejecutable de Clustal Omega
+- Manejo robusto de errores y mensajes informativos
 
 ### Uso
 ```bash
-python scripts/ex3.py
+python scripts/ex3.py --input ../data/secuencias --output secuencias_alineadas.aln [--combined secuencias_combinadas.fa] [--clustalo /path/to/clustalo] [--verbose]
 ```
+
+### Parámetros
+- `--input/-i`: directorio que contiene archivos FASTA (default: `../data/secuencias`)
+- `--output/-o`: archivo de salida con alineamiento (default: `secuencias_alineadas.aln`)
+- `--combined`: archivo FASTA combinado temporal (default: `secuencias_combinadas.fa`)
+- `--clustalo`: ruta al ejecutable de Clustal Omega (auto-detecta si no se especifica)
+- `--verbose`: habilitar salida detallada de Clustal Omega
 
 ### Ejemplo
 ```bash
-python scripts/ex3.py
+python scripts/ex3.py -i ./data/secuencias -o results/alignment.aln --verbose
 ```
 
 ## Flujo de Trabajo Completo
@@ -133,9 +144,9 @@ python scripts/ex3.py
    python scripts/ex2.py -i results/orfs.fasta -o results/blast_analysis.txt --max_hits 10
    ```
 
-4. **Realizar alineación múltimple de secuencias:**
+4. **Realizar alineamiento múltiple de secuencias:**
    ```bash
-   python scripts/ex3.py
+   python scripts/ex3.py -i ../data/secuencias -o results/alignment.aln --verbose
    ```
    
 ## Características Técnicas
@@ -166,17 +177,26 @@ python scripts/ex3.py
    - Filtrado eficiente de resultados
    - Procesamiento por lotes de secuencias
 
+6. **Alineamiento Múltiple Avanzado**:
+   - Auto-detección de Clustal Omega
+   - Limpieza automática de secuencias
+   - Normalización de IDs de secuencias
+   - Manejo robusto de archivos de entrada
+
 ## Notas Importantes
 
 - **Conexión a Internet:** El Ejercicio 2 requiere conexión a internet para acceder a los servidores BLAST de NCBI
 - **Rate Limiting:** Se incluye un delay entre búsquedas BLAST para no sobrecargar los servidores de NCBI
+- **Clustal Omega:** El Ejercicio 3 requiere Clustal Omega instalado (incluido en el proyecto o en PATH del sistema)
 - **Formato de Salida:** Los resultados BLAST incluyen información detallada de alineamientos, valores E, identidad y descripciones de proteínas
-- **Manejo de Errores:** Ambos scripts incluyen manejo robusto de errores y mensajes informativos
+- **Manejo de Errores:** Todos los scripts incluyen manejo robusto de errores y mensajes informativos
+- **Limpieza de Datos:** El Ejercicio 3 limpia automáticamente las secuencias, manteniendo solo nucleótidos válidos
 
 ## Dependencias
 
 - `biopython>=1.83,<2`: Para manipulación de secuencias y BLAST
 - `python>=3.9`: Versión mínima de Python requerida
+- `clustal-omega`: Para alineamiento múltiple de secuencias (incluido en el proyecto)
 
 ## Arquitectura de los Scripts
 
@@ -223,6 +243,36 @@ El script implementa un pipeline de análisis BLAST:
 FASTA → BLAST Online → XML → Parseo → Filtrado → Reporte Español
 ```
 
+### Ejercicio 3 (scripts/ex3.py) - Arquitectura de Alineamiento Múltiple
+
+El script implementa un pipeline completo de alineamiento múltiple:
+
+1. **`parse_args()`**: Configuración de parámetros de entrada y salida
+2. **`clean_sequence_id(record_id)`**: Limpia y normaliza IDs de secuencias
+3. **`clean_sequence_nucleotides(sequence)`**: Limpia secuencias manteniendo solo nucleótidos válidos
+4. **`find_fasta_files(input_dir)`**: Localiza archivos FASTA en el directorio especificado
+5. **`combine_fasta_files(input_files, output_file)`**: Combina múltiples archivos FASTA
+   - Procesa cada archivo FASTA individualmente
+   - Limpia secuencias e IDs
+   - Genera archivo FASTA combinado limpio
+6. **`find_clustal_omega_executable(clustalo_path)`**: Auto-detecta Clustal Omega
+   - Busca en directorio del script
+   - Busca en PATH del sistema
+   - Permite especificación manual
+7. **`run_clustal_omega(input_file, output_file, clustalo_exe, verbose)`**: Ejecuta alineamiento
+   - Configura parámetros de Clustal Omega
+   - Maneja salida y errores
+   - Proporciona feedback detallado
+8. **`main()`**: Orquesta el pipeline completo
+   - Validación de entradas
+   - Manejo de errores robusto
+   - Mensajes informativos consistentes
+
+**Flujo de datos:**
+```
+Directorio FASTA → Combinación → Limpieza → Clustal Omega → Alineamiento
+```
+
 ## Estructura de Resultados
 
 ### Ejercicio 1 - Salida FASTA
@@ -244,6 +294,19 @@ Coincidencia #1:
   Puntuación: 266 (Bits: 266.0)
   Identidad: 266 / 266 (100.0%)
   ...
+```
+
+### Ejercicio 3 - Alineamiento Múltiple (Formato FASTA)
+```
+>Homo_sapiens
+ATGCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG
+ATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG
+>Pan_troglodytes
+ATGCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG
+ATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG
+>Pongo_abelii
+ATGCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG
+ATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG
 ```
 
 ## Contribuciones
