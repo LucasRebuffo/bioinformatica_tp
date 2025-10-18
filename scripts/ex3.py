@@ -42,20 +42,20 @@ def parse_args() -> argparse.Namespace:
         "--input",
         "-i",
         type=str,
-        default="../data/secuencias",
+        default="./data/secuencias",
         help="Directorio que contiene archivos FASTA (default: ../data/secuencias)",
     )
     parser.add_argument(
         "--output",
         "-o",
         type=str,
-        default="secuencias_alineadas.aln",
+        default="./results/secuencias_alineadas.aln",
         help="Archivo de salida con alineamiento (default: secuencias_alineadas.aln)",
     )
     parser.add_argument(
         "--combined",
         type=str,
-        default="secuencias_combinadas.fa",
+        default="./results/secuencias_combinadas.fa",
         help="Archivo FASTA combinado temporal (default: secuencias_combinadas.fa)",
     )
     parser.add_argument(
