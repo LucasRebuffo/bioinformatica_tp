@@ -1,0 +1,185 @@
+Análisis de Reporte BLAST - Filtrado por Patrón
+============================================================
+Patrón buscado: 'Homo sapiens'
+Total de hits encontrados: 21
+
+
+=== Query: NM_000138.5 ===
+Hits encontrados: 6
+
+Hit #1::
+  ID de Proteína: Unknown
+  ACCESSION: CAA45118.1
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 0.00e+00
+  Puntuación: 14965.0
+
+Hit #2::
+  ID de Proteína: NP_001393645.1
+  ACCESSION: NP_001393645.1
+  Descripción: fibrillin 1 [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14956.0
+
+Hit #3::
+  ID de Proteína: AAB29419.1
+  ACCESSION: AAB29419.1
+  Descripción: fibrillin [human, Marfan syndrome patient, Peptide Mutant, 2871 aa] [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14950.0
+
+Hit #5::
+  ID de Proteína: Unknown
+  ACCESSION: ADO22212.1
+  Descripción: gb|ADO22212.1| epididymis secretory sperm binding protein [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14945.0
+
+Hit #6::
+  ID de Proteína: Unknown
+  ACCESSION: BAD16739.1
+  Descripción: dbj|BAD16739.1| fibrillin 1 [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14942.0
+
+Hit #8::
+  ID de Proteína: Unknown
+  ACCESSION: EAW77353.1
+  Descripción: gb|EAW77353.1| fibrillin 1 (Marfan syndrome), isoform CRA_a [Homo sapiens]
+  Longitud: 2869 aa
+  Valor E: 0.00e+00
+  Puntuación: 14917.0
+
+
+=== Query: NM_001406716.1 ===
+Hits encontrados: 6
+
+Hit #1::
+  ID de Proteína: Unknown
+  ACCESSION: CAA45118.1
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 0.00e+00
+  Puntuación: 14965.0
+
+Hit #2::
+  ID de Proteína: NP_001393645.1
+  ACCESSION: NP_001393645.1
+  Descripción: fibrillin 1 [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14956.0
+
+Hit #3::
+  ID de Proteína: AAB29419.1
+  ACCESSION: AAB29419.1
+  Descripción: fibrillin [human, Marfan syndrome patient, Peptide Mutant, 2871 aa] [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14950.0
+
+Hit #5::
+  ID de Proteína: Unknown
+  ACCESSION: ADO22212.1
+  Descripción: gb|ADO22212.1| epididymis secretory sperm binding protein [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14945.0
+
+Hit #6::
+  ID de Proteína: Unknown
+  ACCESSION: BAD16739.1
+  Descripción: dbj|BAD16739.1| fibrillin 1 [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14942.0
+
+Hit #8::
+  ID de Proteína: Unknown
+  ACCESSION: EAW77353.1
+  Descripción: gb|EAW77353.1| fibrillin 1 (Marfan syndrome), isoform CRA_a [Homo sapiens]
+  Longitud: 2869 aa
+  Valor E: 0.00e+00
+  Puntuación: 14917.0
+
+
+=== Query: NM_001406717.1 ===
+Hits encontrados: 9
+
+Hit #1::
+  ID de Proteína: Unknown
+  ACCESSION: NP_001393646.1
+  Descripción: ref|NP_001393646.1| fibrillin-1 isoform b preproprotein [Homo sapiens]
+  Longitud: 306 aa
+  Valor E: 0.00e+00
+  Puntuación: 1597.0
+
+Hit #3::
+  ID de Proteína: Unknown
+  ACCESSION: CAA45118.1
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 0.00e+00
+  Puntuación: 1501.0
+
+Hit #4::
+  ID de Proteína: Unknown
+  ACCESSION: CAA45118.1
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 2.05e-18
+  Puntuación: 245.0
+
+Hit #5::
+  ID de Proteína: Unknown
+  ACCESSION: CAA45118.1
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 5.03e-13
+  Puntuación: 204.0
+
+Hit #6::
+  ID de Proteína: Unknown
+  ACCESSION: CAA45118.1
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 3.12e-12
+  Puntuación: 197.0
+
+Hit #7::
+  ID de Proteína: Unknown
+  ACCESSION: CAA45118.1
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 1.17e-08
+  Puntuación: 169.0
+
+Hit #8::
+  ID de Proteína: Unknown
+  ACCESSION: CAA45118.1
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 6.67e-08
+  Puntuación: 164.0
+
+Hit #9::
+  ID de Proteína: Unknown
+  ACCESSION: CAA45118.1
+  Descripción: emb|CAA45118.1| fibrillin, partial [Homo sapiens]
+  Longitud: 3002 aa
+  Valor E: 6.26e-04
+  Puntuación: 132.0
+
+Hit #10::
+  ID de Proteína: Unknown
+  ACCESSION: BAD16739.1
+  Descripción: dbj|BAD16739.1| fibrillin 1 [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 1499.0
+

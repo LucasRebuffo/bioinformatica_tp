@@ -9,8 +9,9 @@ bioinformatica_tp/
 ├── scripts/                   # Scripts de Python
 │   ├── clustal-omega-1.2.2/   # Proyecto Clustal Omega para alinear secuencias
 │   ├── ex1.py                 # Ejercicio 1: Procesamiento de secuencias GenBank
-│   └── ex2.py                 # Ejercicio 2: Análisis BLAST de proteínas
-│   └── ex3.py                 # Ejercicio 3: Alineación múltiple de secuencias
+│   ├── ex2.py                 # Ejercicio 2: Análisis BLAST de proteínas
+│   ├── ex3.py                 # Ejercicio 3: Alineación múltiple de secuencias
+│   └── ex4.py                 # Ejercicio 4: Análisis de reporte BLAST con filtrado por patrón
 ├── data/             # Archivos de datos de entrada
 │   ├── secuencias/   # Secuencias fasta para el ejercicio 3
 │   ├── NM_022555.gb  # Archivo GenBank de ejemplo
@@ -126,6 +127,37 @@ python scripts/ex3.py --input ../data/secuencias --output secuencias_alineadas.a
 python scripts/ex3.py -i ./data/secuencias -o results/alignment.aln --verbose
 ```
 
+## Ejercicio 4 – Análisis de Reporte BLAST con Filtrado por Patrón
+
+**Script:** `scripts/ex4.py`
+
+Este script parsea un reporte de salida de BLAST (formato texto) e identifica los hits que contienen un patrón específico en su descripción. Además, implementa el punto extra: extrae los ACCESSION de los hits identificados y obtiene las secuencias completas de GenBank en formato FASTA.
+
+### Características
+- Parsea archivos de reporte BLAST en formato texto (generados por `ex2.py`)
+- Filtra hits cuya descripción contiene un patrón específico (búsqueda case-insensitive)
+- Extrae los números de acceso (ACCESSION) de los hits identificados
+- Obtiene las secuencias completas de GenBank usando Bio.Entrez
+- Escribe las secuencias en formato FASTA (punto extra)
+
+### Uso
+```bash
+python scripts/ex4.py --input results/blast_results.txt --pattern "Homo sapiens" --output results/filtered_hits.txt [--fasta results/sequences.fasta] [--email email@example.com]
+```
+
+### Parámetros
+- `--input/-i`: archivo de reporte BLAST (formato txt) - **REQUERIDO**
+- `--pattern/-p`: patrón a buscar en las descripciones (ej: "Homo sapiens") - **REQUERIDO**
+- `--output/-o`: archivo de salida con lista de hits filtrados - **REQUERIDO**
+- `--fasta/-f`: archivo FASTA opcional para guardar secuencias completas de GenBank (punto extra)
+- `--email/-e`: email para identificación con NCBI Entrez (default: "lrebuffo@frba.utn.edu.ar")
+- `--delay`: delay entre consultas a GenBank en segundos (default: 0.5)
+
+### Ejemplo
+```bash
+python scripts/ex4.py -i results/blast_results.txt -p "Homo sapiens" -o results/filtered_hits.txt --fasta results/homo_sapiens_sequences.fasta
+```
+
 ## Flujo de Trabajo Completo
 
 1. **Preparar datos de entrada:**
@@ -147,6 +179,11 @@ python scripts/ex3.py -i ./data/secuencias -o results/alignment.aln --verbose
 4. **Realizar alineamiento múltiple de secuencias:**
    ```bash
    python scripts/ex3.py -i ../data/secuencias -o results/alignment.aln --verbose
+   ```
+
+5. **Analizar reporte BLAST con filtrado por patrón:**
+   ```bash
+   python scripts/ex4.py -i results/blast_results.txt -p "Homo sapiens" -o results/filtered_hits.txt --fasta results/homo_sapiens_sequences.fasta
    ```
    
 ## Características Técnicas
@@ -191,6 +228,8 @@ python scripts/ex3.py -i ./data/secuencias -o results/alignment.aln --verbose
 - **Formato de Salida:** Los resultados BLAST incluyen información detallada de alineamientos, valores E, identidad y descripciones de proteínas
 - **Manejo de Errores:** Todos los scripts incluyen manejo robusto de errores y mensajes informativos
 - **Limpieza de Datos:** El Ejercicio 3 limpia automáticamente las secuencias, manteniendo solo nucleótidos válidos
+- **GenBank Access:** El Ejercicio 4 requiere conexión a internet para acceder a GenBank cuando se usa la opción `--fasta`
+- **NCBI Email:** El Ejercicio 4 requiere un email válido para identificarse con NCBI Entrez
 
 ## Dependencias
 
@@ -273,6 +312,32 @@ El script implementa un pipeline completo de alineamiento múltiple:
 Directorio FASTA → Combinación → Limpieza → Clustal Omega → Alineamiento
 ```
 
+### Ejercicio 4 (scripts/ex4.py) - Arquitectura de Filtrado BLAST
+
+El script implementa un pipeline de filtrado y obtención de secuencias:
+
+1. **`parse_args()`**: Configuración de parámetros de entrada y filtrado
+2. **`parse_blast_report(file_path)`**: Parsea archivo de reporte BLAST en formato texto
+   - Detecta inicio de resultados para cada query
+   - Extrae información de cada hit (ID, Descripción, ACCESSION, etc.)
+   - Maneja diferentes formatos de ACCESSION (emb|ACCESSION|, ref|ACCESSION|, etc.)
+3. **`filter_hits_by_pattern(hits, pattern, case_sensitive)`**: Filtra hits por patrón
+   - Búsqueda case-insensitive por defecto
+   - Busca el patrón en la descripción de cada hit
+4. **`extract_accessions(hits)`**: Extrae accessions únicos de hits filtrados
+5. **`fetch_sequences_from_genbank(accessions, email, delay)`**: Obtiene secuencias de GenBank
+   - Usa Bio.Entrez para consultar GenBank
+   - Implementa delays para no sobrecargar NCBI
+   - Maneja errores de conexión y acceso
+6. **`format_filtered_hits(hits, pattern)`**: Formatea hits filtrados para reporte
+7. **`write_fasta_file(file_path, sequences)`**: Escribe secuencias en formato FASTA
+8. **`main()`**: Orquesta el pipeline completo
+
+**Flujo de datos:**
+```
+Reporte BLAST → Parseo → Filtrado por Patrón → Extracción ACCESSION → GenBank → FASTA
+```
+
 ## Estructura de Resultados
 
 ### Ejercicio 1 - Salida FASTA
@@ -307,6 +372,35 @@ ATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG
 >Pongo_abelii
 ATGCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG
 ATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCGATCG
+```
+
+### Ejercicio 4 - Reporte de Hits Filtrados y Secuencias FASTA
+
+**Salida de hits filtrados:**
+```
+Análisis de Reporte BLAST - Filtrado por Patrón
+============================================================
+Patrón buscado: 'Homo sapiens'
+Total de hits encontrados: 21
+
+=== Query: NM_000138.5 ===
+Hits encontrados: 6
+
+Hit #1:
+  ID de Proteína: NP_001393645.1
+  ACCESSION: NP_001393645.1
+  Descripción: fibrillin 1 [Homo sapiens]
+  Longitud: 2871 aa
+  Valor E: 0.00e+00
+  Puntuación: 14956.0
+  ...
+```
+
+**Salida FASTA (opcional):**
+```
+>NP_001393645.1 fibrillin 1 [Homo sapiens]
+MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
+...
 ```
 
 ## Contribuciones
