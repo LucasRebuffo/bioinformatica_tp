@@ -1,0 +1,25 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Fri 7 Nov 2025 21:00:11
+# Commandline: patmatmotifs
+#    -sequence C:\UTN\Bioinformatica\TP\bioinformatica_tp\scripts\..\results\proteins_NM_000138.5.fasta
+#    -full
+#    -outfile C:\UTN\Bioinformatica\TP\bioinformatica_tp\scripts\..\results\domains_NM_000138.5.txt
+# Report_format: dbmotif
+# Report_file: C:\UTN\Bioinformatica\TP\bioinformatica_tp\scripts\..\results\domains_NM_000138.5.txt
+########################################
+
+#=======================================
+#
+# Sequence: Homo_1     from: 1   to: 11
+# HitCount: 0
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: C:\EMBOSS\data\PROSITE\prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

@@ -12,15 +12,21 @@ bioinformatica_tp/
 │   ├── ex2.py                 # Ejercicio 2: Análisis BLAST de proteínas
 │   ├── ex3.py                 # Ejercicio 3: Alineación múltiple de secuencias
 │   └── ex4.py                 # Ejercicio 4: Análisis de reporte BLAST con filtrado por patrón
+│   └── ex5.py                 # Ejercicio 5: Análisis de dominios de secuencias de aminoácidos
 ├── data/             # Archivos de datos de entrada
 │   ├── secuencias/   # Secuencias fasta para el ejercicio 3
 │   ├── NM_022555.gb  # Archivo GenBank de ejemplo
+│   ├── NM_000138.5.fasta  # Archivo fasra para el ejercicio 5
 │   └── INS_orfs.fasta # Secuencias de aminoácidos generadas
 ├── results/          # Archivos de resultados
 │   ├── blast_analysis.txt # Resultados de análisis BLAST
 │   └── INS_orfs_table.xlsx # Tabla de resultados
+│   └── orfs_NM_000138.5.fasta # Archivo con los ORFs generados
+│   └── proteins_NM_000138.5.fasta # Traducción de los ORFs a proteinas
+│   └── domains_NM_000138.5.txt # Archivo de análisis de dominios de secuencias
 ├── docs/             # Documentación
 │   └── TP Bioinformatica-2025 - Parte 1.pdf
+│   └── TP Bioinformatica-2025 - Parte 2.pdf
 ├── requirements.txt   # Dependencias de Python
 └── README.md         # Este archivo
 ```
@@ -156,6 +162,30 @@ python scripts/ex4.py --input results/blast_results.txt --pattern "Homo sapiens"
 ### Ejemplo
 ```bash
 python scripts/ex4.py -i results/blast_results.txt -p "Homo sapiens" -o results/filtered_hits.txt --fasta results/homo_sapiens_sequences.fasta
+```
+
+## Ejercicio 5 – Análisis de dominios de secuencias de aminoácidos
+
+**Script:** `scripts/ex5.py`
+
+Este script genera un archivo con los ORFs para obtener las secuencias de proteínas posibles, un archivo con la traducción de los ORFs a proteínas y un txt con el análisis de dominios de secuencias.
+
+### Características
+- Lee un archivo FASTA de nucleótidos desde un directorio especificado
+- Con getorf de EMBOSS genera un archivo con los ORFs con las secuencias de proteínas posibles
+- Traduce los ORFs obtenidos a proteínas para poder ejecutar un programa EMBOSS que haga un análisis de dominios de secuencias
+- Con patmatmotifs de EMBOSS genera un archivo txt con el análisis de dominios de secuencias
+
+### Uso
+```bash
+python scripts/ex5.py
+```
+
+### Parámetros
+
+### Ejemplo
+```bash
+python scripts/ex5.py
 ```
 
 ## Flujo de Trabajo Completo
