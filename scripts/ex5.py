@@ -42,20 +42,12 @@ for f in [orfs_fasta]:
         print(f"Archivo encontrado: {os.path.abspath(f)}")
 
 # ----------------------------
-# Traducir los ORFs a proteínas (necesario para patmatmotifs)
+# Genero archivo para extraer la proteína real del mRNA (necesario para patmatmotifs)
 # ----------------------------
 
-records = []
-for record in SeqIO.parse(orfs_fasta, "fasta"):
-    protein_seq = record.seq.translate(to_stop=True)
-    new_record = SeqRecord(
-        protein_seq,
-        id=record.id,
-        description="Translated protein from ORF"
-    )
-    records.append(new_record)
-
-SeqIO.write(records, proteins_fasta, "fasta")
+record = SeqIO.read(input_fasta, "fasta")
+protein = record.seq.translate(to_stop=True)
+SeqIO.write(record, proteins_fasta, "fasta")
 print(f"Archivo de proteinas traducidas generado: {proteins_fasta}")
 
 # ----------------------------

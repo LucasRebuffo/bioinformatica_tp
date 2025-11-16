@@ -173,7 +173,7 @@ Este script genera un archivo con los ORFs para obtener las secuencias de prote�
 ### Características
 - Lee un archivo FASTA de nucleótidos desde un directorio especificado
 - Con getorf de EMBOSS genera un archivo con los ORFs con las secuencias de proteínas posibles
-- Traduce los ORFs obtenidos a proteínas para poder ejecutar un programa EMBOSS que haga un análisis de dominios de secuencias
+- Genero archivo para extraer la proteína real del mRNA para poder ejecutar un programa EMBOSS que haga un análisis de dominios de secuencias
 - Con patmatmotifs de EMBOSS genera un archivo txt con el análisis de dominios de secuencias
 
 ### Uso
@@ -431,6 +431,31 @@ Hit #1:
 >NP_001393645.1 fibrillin 1 [Homo sapiens]
 MRRGRLLEIALGFTVLLASYTSHGADANLEAGNVKETRASRAKRRGGGGHDALKGPNVCG
 ...
+```
+
+### Ejercicio 5 - Análisis de dominios de secuencias de aminoácidos (Formato TXT)
+```
+########################################
+# Program: patmatmotifs
+# Rundate: Sun 16 Nov 2025 18:55:26
+# Commandline: patmatmotifs
+#    -sequence C:\UTN\Bioinformatica\TP\bioinformatica_tp\scripts\..\results\proteins_NM_000138.5.fasta
+#    -full
+#    -outfile C:\UTN\Bioinformatica\TP\bioinformatica_tp\scripts\..\results\domains_NM_000138.5.txt
+# Report_format: dbmotif
+# Report_file: C:\UTN\Bioinformatica\TP\bioinformatica_tp\scripts\..\results\domains_NM_000138.5.txt
+########################################
+
+#=======================================
+#
+# Sequence: Homo     from: 1   to: 11609
+# HitCount: 76
+#
+# Full: Yes
+# Prune: Yes
+# Data_file: C:\EMBOSS\data\PROSITE\prosite.lines
+#
+#=======================================
 ```
 
 ## Contribuciones
